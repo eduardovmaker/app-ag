@@ -1,0 +1,8394 @@
+{
+  "orientadores": [
+    {
+      "id": 9999,
+      "nome": "Administrador Geral",
+      "email": "admin.audit@via.education",
+      "pin": "$2b$08$qt8C0LbjJMMAqYvDUEQ4w.WlmgMMdMlg5PNt1xU1vREUdBlmKrifC",
+      "role": "admin",
+      "ativo": 1
+    },
+    {
+      "id": 1,
+      "nome": "Adolfo",
+      "email": "adolfo@via.education",
+      "pin": "$2b$08$i2YI6R6CE8rib8ulljoJ3.REI2FNQuO08VYSy994.PJppDbYn3VGm",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 2,
+      "nome": "Adriele Pereira",
+      "email": "adriele.pereira@via.education",
+      "pin": "$2b$08$alQWtlC/IoLWAhVZoZag7uFVh5j7SVx2J3N9uGzpGPDtPmjaqtZBC",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 3,
+      "nome": "Aline Gomes",
+      "email": "aline.gomes@via.education",
+      "pin": "$2b$08$YCoWmRm75pL0NMx1DHgxJecDJ2gSfZxwXilul.Gc/KxEIyT2B6Gxi",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 4,
+      "nome": "Amarildo Junior",
+      "email": "amarildo.junior@via.education",
+      "pin": "$2b$08$bQrGd2UZvDJ4hjSrJqAsJuJQbEQlAeaJcmvTM0q4R/99fAxDMfZoK",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 5,
+      "nome": "Ana Paula Lima",
+      "email": "ana.paula.lima@via.education",
+      "pin": "$2b$08$cEHtJxGzH38Htmuhgd0xIevgUt9KvAy1KP67lYBntwsR4gKBYRv7y",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 6,
+      "nome": "Carlos Matos",
+      "email": "carlos.matos@via.education",
+      "pin": "$2b$08$oaPwfQUFtITnyOfbbNKC0u0x9sVHEQ5R9.ArKSCB5mZSHbn0WRV3G",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 7,
+      "nome": "Daniel Santos",
+      "email": "daniel.santos@via.education",
+      "pin": "$2b$08$HW80MNJ0.FXw1DD0YPca3.xyoQ3Qaa/dama/KKsH4gZgSIAAMzcD.",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 8,
+      "nome": "Elienai Cordova",
+      "email": "elienai.cordova@via.education",
+      "pin": "$2b$08$Mh5qR9pAsUyaxmxDsSbSLOlaGgi/CPaCXVnPTCFQZFuboVLjfQ/tO",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 9,
+      "nome": "Everton Neves",
+      "email": "everton.neves@via.education",
+      "pin": "$2b$08$kyo2iLeExOcNi1CW/4YmpOHT7ozvfAuCBJs34h95QcSV8B1UsWM/C",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 10,
+      "nome": "Gabriel Felisbino",
+      "email": "gabriel.felisbino@via.education",
+      "pin": "$2b$08$xsAY.mhun.wDVLUNYClvF.Mh4eEQc5gUZH1x1Pp4yC3MOLhY6SRVC",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 11,
+      "nome": "Gabrielly Silva",
+      "email": "gabrielly.silva@via.education",
+      "pin": "$2b$08$L8meq2kmmU.0iI.hLfbq6ufu.jzFDNqPdtdai.YzSUEM24o3Qsqs.",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 12,
+      "nome": "Helen Silva",
+      "email": "helen.silva@via.education",
+      "pin": "$2b$08$qoj.XoZO4ecWp9N9UvZCC.dfE5t/LbI1wd3.d0Igz2h7VEQRzcSK6",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 13,
+      "nome": "Jhonatan Luna",
+      "email": "jhonatan.luna@via.education",
+      "pin": "$2b$08$Z2RAb9x5we6O50rgZUf2..FjU9/zX4ncZ0a2afnSgPBWr4PEt4kMC",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 14,
+      "nome": "Lara Lima",
+      "email": "lara.lima@via.education",
+      "pin": "$2b$08$ox18Z3j.NczzsLrCNpZJKOgnQ9uEDRq/9fINzl.a7zddXabkjk3DK",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 15,
+      "nome": "Mariana Munhoz",
+      "email": "mariana.munhoz@via.education",
+      "pin": "$2b$08$5J6SYH6.UiRzYaZhhm9DeuYuX6R2M0m/Qu9AUpMj1nLm.eghB9MpC",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 16,
+      "nome": "Mirella Neves",
+      "email": "mirella.neves@via.education",
+      "pin": "$2b$08$MKJBui3YTPj1paPrdlKAn./S7F/pvKn6FxJfybQK2vXmRXhvGg7Gq",
+      "role": "orientador",
+      "ativo": 1
+    },
+    {
+      "id": 17,
+      "nome": "Sabrina Moraes",
+      "email": "sabrina.moraes@via.education",
+      "pin": "$2b$08$U7dbAyyjop6Av.ayEzIuj.aAuZzL3iebR.Ea.l4tsZfdV7ONTZWVa",
+      "role": "orientador",
+      "ativo": 1
+    }
+  ],
+  "escolas": [
+    {
+      "id": 1,
+      "nome": "COLEGIO ADVENTISTA BLUMENAU",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0001",
+      "lat": -27.792655,
+      "lng": -49.827937
+    },
+    {
+      "id": 2,
+      "nome": "COLEGIO ADVENTISTA JOINVILLE - SAGUACU",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0002",
+      "lat": -26.347284,
+      "lng": -48.796971
+    },
+    {
+      "id": 3,
+      "nome": "INSTITUTO ADVENTISTA DE ENSINO SANTA CATARINA",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0003",
+      "lat": -27.432765,
+      "lng": -49.735963
+    },
+    {
+      "id": 4,
+      "nome": "COLEGIO ADVENTISTA CHAPECO",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0004",
+      "lat": -26.342849,
+      "lng": -49.798998
+    },
+    {
+      "id": 5,
+      "nome": "COLEGIO ADVENTISTA INDAIAL",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0005",
+      "lat": -27.938092,
+      "lng": -48.859146
+    },
+    {
+      "id": 6,
+      "nome": "COLEGIO ADVENTISTA SAO FRANCISCO DO SUL",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0006",
+      "lat": -26.191214,
+      "lng": -49.569806
+    },
+    {
+      "id": 7,
+      "nome": "ESCOLA ADVENTISTA BOM RETIRO",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0007",
+      "lat": -27.796507,
+      "lng": -49.785126
+    },
+    {
+      "id": 8,
+      "nome": "ESCOLA ADVENTISTA COSTA E SILVA",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0008",
+      "lat": -27.920435,
+      "lng": -48.430063
+    },
+    {
+      "id": 9,
+      "nome": "ESCOLA ADVENTISTA JOINVILLE - CENTRO",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0009",
+      "lat": -26.669438,
+      "lng": -48.040537
+    },
+    {
+      "id": 10,
+      "nome": "ESCOLA ADVENTISTA RIO DO SUL",
+      "cidade": "Advento",
+      "estado": "SC",
+      "codigo": "ESC0010",
+      "lat": -27.997131,
+      "lng": -48.216902
+    },
+    {
+      "id": 11,
+      "nome": "INSTITUTO EDUCACIONAL DE AMERICANA",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0011",
+      "lat": -27.606505,
+      "lng": -49.151484
+    },
+    {
+      "id": 12,
+      "nome": "ANGLO ALANTE PAULINIA - UNIDADE I",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0012",
+      "lat": -27.028806,
+      "lng": -48.08564
+    },
+    {
+      "id": 13,
+      "nome": "ESCOLA DO PARQUE ECOLÓGICO",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0013",
+      "lat": -26.911314,
+      "lng": -48.973783
+    },
+    {
+      "id": 14,
+      "nome": "COLÉGIO CONNECTA",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0014",
+      "lat": -27.720072,
+      "lng": -49.297442
+    },
+    {
+      "id": 15,
+      "nome": "ANGLO ALANTE PAULINIA - UNIDADE II",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0015",
+      "lat": -26.978475,
+      "lng": -49.654877
+    },
+    {
+      "id": 16,
+      "nome": "COLEGIO ANGLO ARTUR NOGUEIRA",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0016",
+      "lat": -27.726413,
+      "lng": -48.555834
+    },
+    {
+      "id": 17,
+      "nome": "COLÉGIO SOS",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0017",
+      "lat": -27.967162,
+      "lng": -48.013388
+    },
+    {
+      "id": 18,
+      "nome": "OBJETIVO ITAPIRA",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0018",
+      "lat": -27.67382,
+      "lng": -48.789723
+    },
+    {
+      "id": 19,
+      "nome": "COLÉGIO CONECTADO",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0019",
+      "lat": -27.903757,
+      "lng": -48.999635
+    },
+    {
+      "id": 20,
+      "nome": "COLEGIO MONTREAL",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0020",
+      "lat": -27.990987,
+      "lng": -49.01614
+    },
+    {
+      "id": 21,
+      "nome": "MAPLE BEAR ASSIS",
+      "cidade": "Campinas 1",
+      "estado": "SC",
+      "codigo": "ESC0021",
+      "lat": -27.960396,
+      "lng": -49.312647
+    },
+    {
+      "id": 22,
+      "nome": "COLEGIO UNICULTURA",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0022",
+      "lat": -26.593714,
+      "lng": -48.572838
+    },
+    {
+      "id": 23,
+      "nome": "COLEGIO ALAMO VALINHOS",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0023",
+      "lat": -26.388012,
+      "lng": -49.764707
+    },
+    {
+      "id": 24,
+      "nome": "COLÉGIO PEDRO E RAFAEL",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0024",
+      "lat": -26.836785,
+      "lng": -49.056312
+    },
+    {
+      "id": 25,
+      "nome": "OFICINA DO ESTUDANTE (UNIDADE I TAQUARAL)",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0025",
+      "lat": -27.417802,
+      "lng": -48.932199
+    },
+    {
+      "id": 26,
+      "nome": "COC PAULÍNIA - UNIDADE II",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0026",
+      "lat": -26.126656,
+      "lng": -48.107486
+    },
+    {
+      "id": 27,
+      "nome": "ANGLO ALANTE ARARAS",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0027",
+      "lat": -27.984091,
+      "lng": -49.729134
+    },
+    {
+      "id": 28,
+      "nome": "COLEGIO JULIO CHEVALIER",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0028",
+      "lat": -26.922025,
+      "lng": -48.149037
+    },
+    {
+      "id": 29,
+      "nome": "COLEGIO ALAMO VINHEDO",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0029",
+      "lat": -27.724267,
+      "lng": -48.618364
+    },
+    {
+      "id": 30,
+      "nome": "COLÉGIO MONTE SIONENSE",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0030",
+      "lat": -26.796166,
+      "lng": -48.944981
+    },
+    {
+      "id": 31,
+      "nome": "OFICINA DO ESTUDANTE (UNIDADE II PAINEIRAS)",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0031",
+      "lat": -27.093271,
+      "lng": -48.119218
+    },
+    {
+      "id": 32,
+      "nome": "COLÉGIO PRESBITERIANO",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0032",
+      "lat": -26.427071,
+      "lng": -48.620258
+    },
+    {
+      "id": 33,
+      "nome": "COLEGIO E CURSO MAXIMUS",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0033",
+      "lat": -26.229485,
+      "lng": -48.198863
+    },
+    {
+      "id": 34,
+      "nome": "COLEGIO CRER",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0034",
+      "lat": -27.983767,
+      "lng": -48.147421
+    },
+    {
+      "id": 35,
+      "nome": "COC PAULINIA UNIDADE III",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0035",
+      "lat": -27.027524,
+      "lng": -49.545003
+    },
+    {
+      "id": 36,
+      "nome": "COC PAULINIA - UNIDADE I",
+      "cidade": "Campinas 2",
+      "estado": "SC",
+      "codigo": "ESC0036",
+      "lat": -27.58788,
+      "lng": -49.041593
+    },
+    {
+      "id": 37,
+      "nome": "COLÉGIO LE PERINI",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0037",
+      "lat": -26.655711,
+      "lng": -48.211153
+    },
+    {
+      "id": 38,
+      "nome": "COLEGIO EPISTEME",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0038",
+      "lat": -26.679621,
+      "lng": -48.154242
+    },
+    {
+      "id": 39,
+      "nome": "TATO ECOLÉGIO",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0039",
+      "lat": -26.054106,
+      "lng": -48.477603
+    },
+    {
+      "id": 40,
+      "nome": "COLÉGIO FUNDAMENTUM",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0040",
+      "lat": -26.003503,
+      "lng": -48.784121
+    },
+    {
+      "id": 41,
+      "nome": "VIVARE COLÉGIO",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0041",
+      "lat": -26.628318,
+      "lng": -48.856479
+    },
+    {
+      "id": 42,
+      "nome": "ESCOLA SÃO PAULO (HOLAMBRA)",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0042",
+      "lat": -26.038068,
+      "lng": -49.591349
+    },
+    {
+      "id": 43,
+      "nome": "IEC (INSTITUTO EDUCACIONAL CIRANDINHA)",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0043",
+      "lat": -26.966052,
+      "lng": -49.2383
+    },
+    {
+      "id": 44,
+      "nome": "COLÉGIOS CEAS",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0044",
+      "lat": -26.06537,
+      "lng": -48.427017
+    },
+    {
+      "id": 45,
+      "nome": "ESCOLA PATELLI",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0045",
+      "lat": -27.908196,
+      "lng": -48.625273
+    },
+    {
+      "id": 46,
+      "nome": "COLÉGIO MATERNA",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0046",
+      "lat": -27.170794,
+      "lng": -49.200039
+    },
+    {
+      "id": 47,
+      "nome": "COLEGIO DA VILLA",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0047",
+      "lat": -27.976457,
+      "lng": -49.322316
+    },
+    {
+      "id": 48,
+      "nome": "COLÉGIO OBJETIVO MONTE MOR",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0048",
+      "lat": -26.864283,
+      "lng": -49.401059
+    },
+    {
+      "id": 49,
+      "nome": "COLÉGIO ALVES DE OLIVEIRA",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0049",
+      "lat": -26.197314,
+      "lng": -48.207884
+    },
+    {
+      "id": 50,
+      "nome": "COLÉGIO OBJETIVO ERENTRUD",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0050",
+      "lat": -26.364236,
+      "lng": -49.113882
+    },
+    {
+      "id": 51,
+      "nome": "ESCOLA TRAÇO MÁGICO",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0051",
+      "lat": -26.436758,
+      "lng": -48.81579
+    },
+    {
+      "id": 52,
+      "nome": "ILUMINE ESCOLA CRISTÃ",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0052",
+      "lat": -27.025449,
+      "lng": -49.239555
+    },
+    {
+      "id": 53,
+      "nome": "COLÉGIO SAN CONRADO",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0053",
+      "lat": -26.054543,
+      "lng": -49.002296
+    },
+    {
+      "id": 54,
+      "nome": "COLÉGIO OBJETIVO MONTE MOR (JÚNIOR)",
+      "cidade": "Campinas 3",
+      "estado": "SC",
+      "codigo": "ESC0054",
+      "lat": -27.307132,
+      "lng": -49.286983
+    },
+    {
+      "id": 55,
+      "nome": "ESCOLA PRESBITERIANA",
+      "cidade": "Cuiabá",
+      "estado": "SC",
+      "codigo": "ESC0055",
+      "lat": -27.506237,
+      "lng": -49.022823
+    },
+    {
+      "id": 56,
+      "nome": "COLEGIO LEIBNIZ",
+      "cidade": "Cuiabá",
+      "estado": "SC",
+      "codigo": "ESC0056",
+      "lat": -27.606529,
+      "lng": -49.64936
+    },
+    {
+      "id": 57,
+      "nome": "ESCOLA EXPONENCIAL",
+      "cidade": "Cuiabá",
+      "estado": "SC",
+      "codigo": "ESC0057",
+      "lat": -26.518408,
+      "lng": -48.854161
+    },
+    {
+      "id": 58,
+      "nome": "ESCOLA AVANCE",
+      "cidade": "Cuiabá",
+      "estado": "SC",
+      "codigo": "ESC0058",
+      "lat": -27.176216,
+      "lng": -48.985556
+    },
+    {
+      "id": 59,
+      "nome": "ESCOLA PROGRESSO",
+      "cidade": "Cuiabá",
+      "estado": "SC",
+      "codigo": "ESC0059",
+      "lat": -26.916259,
+      "lng": -49.106692
+    },
+    {
+      "id": 60,
+      "nome": "ESCOLA SOSSEGO DA MAMÃE",
+      "cidade": "Cuiabá",
+      "estado": "SC",
+      "codigo": "ESC0060",
+      "lat": -27.820156,
+      "lng": -49.608568
+    },
+    {
+      "id": 61,
+      "nome": "COLÉGIO ALPHA PRIME",
+      "cidade": "Cuiabá",
+      "estado": "SC",
+      "codigo": "ESC0061",
+      "lat": -26.125566,
+      "lng": -48.794715
+    },
+    {
+      "id": 62,
+      "nome": "ANGLO ALANTE ÁPICE",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0062",
+      "lat": -27.295256,
+      "lng": -48.283535
+    },
+    {
+      "id": 63,
+      "nome": "COLÉGIO E CURSO ALMIRANTE TAMANDARÉ",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0063",
+      "lat": -27.278384,
+      "lng": -48.353314
+    },
+    {
+      "id": 64,
+      "nome": "UNILIVROS LTDA - UNI JUNIOR",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0064",
+      "lat": -26.802867,
+      "lng": -49.272827
+    },
+    {
+      "id": 65,
+      "nome": "COLEGIO SOLAR",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0065",
+      "lat": -27.363876,
+      "lng": -48.471078
+    },
+    {
+      "id": 66,
+      "nome": "COLÉGIO INTERATIVA - PARQUE ATHENEU",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0066",
+      "lat": -26.65448,
+      "lng": -48.222341
+    },
+    {
+      "id": 67,
+      "nome": "COLÉGIO INTERATIVA - SENADOR CANEDO",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0067",
+      "lat": -27.118879,
+      "lng": -48.863995
+    },
+    {
+      "id": 68,
+      "nome": "ESCOLA DENTE DE LEITE",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0068",
+      "lat": -26.895085,
+      "lng": -49.144105
+    },
+    {
+      "id": 69,
+      "nome": "ESCOLA INFANTIL PEQUENO PRINCIPE",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0069",
+      "lat": -27.044915,
+      "lng": -49.921422
+    },
+    {
+      "id": 70,
+      "nome": "COLÉGIO CCI",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0070",
+      "lat": -26.035844,
+      "lng": -48.534068
+    },
+    {
+      "id": 71,
+      "nome": "COLÉGIO INTERATIVA - SÃO JUDAS TADEU",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0071",
+      "lat": -26.973483,
+      "lng": -48.991532
+    },
+    {
+      "id": 72,
+      "nome": "ESCOLA CRISTA DE TRINDADE",
+      "cidade": "GO",
+      "estado": "SC",
+      "codigo": "ESC0072",
+      "lat": -26.035722,
+      "lng": -49.359772
+    },
+    {
+      "id": 73,
+      "nome": "COLÉGIO OBJETIVO PERUÍBE",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0073",
+      "lat": -27.980458,
+      "lng": -49.0173
+    },
+    {
+      "id": 74,
+      "nome": "ESCOLA AMERICANA DE SANTOS",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0074",
+      "lat": -27.340586,
+      "lng": -48.450833
+    },
+    {
+      "id": 75,
+      "nome": "COLÉGIO EXPRESSÃO",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0075",
+      "lat": -27.39948,
+      "lng": -48.458844
+    },
+    {
+      "id": 76,
+      "nome": "ESCOLA ESPIRITUALISTA ORDEM E PROGRESSO",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0076",
+      "lat": -26.696819,
+      "lng": -48.575443
+    },
+    {
+      "id": 77,
+      "nome": "COLÉGIO PROGRESSO SANTISTA",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0077",
+      "lat": -26.963024,
+      "lng": -49.181471
+    },
+    {
+      "id": 78,
+      "nome": "CENTRO EDUCACIONAL PIRÂMIDE",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0078",
+      "lat": -26.333938,
+      "lng": -48.525117
+    },
+    {
+      "id": 79,
+      "nome": "ESCOLA LICEU PIRES",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0079",
+      "lat": -27.82547,
+      "lng": -48.549412
+    },
+    {
+      "id": 80,
+      "nome": "COLÉGIO URSO BIANCO",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0080",
+      "lat": -27.525584,
+      "lng": -48.736833
+    },
+    {
+      "id": 81,
+      "nome": "COLÉGIO JOÃO E MARIA",
+      "cidade": "Litoral",
+      "estado": "SC",
+      "codigo": "ESC0081",
+      "lat": -27.329157,
+      "lng": -48.757549
+    },
+    {
+      "id": 82,
+      "nome": "ESCOLA PEQUENOS PASSOS",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0082",
+      "lat": -27.940414,
+      "lng": -49.150968
+    },
+    {
+      "id": 83,
+      "nome": "EDUCANDÁRIO PAPYLLON",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0083",
+      "lat": -26.363024,
+      "lng": -49.278852
+    },
+    {
+      "id": 84,
+      "nome": "CIP - COLEGIO IRMAS PAULA",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0084",
+      "lat": -27.595092,
+      "lng": -49.889207
+    },
+    {
+      "id": 85,
+      "nome": "COLÉGIO RENOVAÇÃO",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0085",
+      "lat": -26.633389,
+      "lng": -48.962088
+    },
+    {
+      "id": 86,
+      "nome": "CENTRO EDUCACIONAL JORGE DE LIMA",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0086",
+      "lat": -27.341793,
+      "lng": -49.083872
+    },
+    {
+      "id": 87,
+      "nome": "CESFA - SÃO FRANCISCO DE ASSIS",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0087",
+      "lat": -27.26927,
+      "lng": -48.07744
+    },
+    {
+      "id": 88,
+      "nome": "APRENDENDO A CRESCER",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0088",
+      "lat": -27.848152,
+      "lng": -49.006003
+    },
+    {
+      "id": 89,
+      "nome": "INSTITUTO DE ENSINO EDUCAR",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0089",
+      "lat": -27.022513,
+      "lng": -49.26144
+    },
+    {
+      "id": 90,
+      "nome": "COLEGIO SANTO ANTONIO DE JESUS",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0090",
+      "lat": -27.672183,
+      "lng": -49.361253
+    },
+    {
+      "id": 91,
+      "nome": "ESCOLA GENTE MIUDA",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0091",
+      "lat": -26.313282,
+      "lng": -49.949514
+    },
+    {
+      "id": 92,
+      "nome": "OBJETIVO ARARIPINA",
+      "cidade": "Nordeste",
+      "estado": "SC",
+      "codigo": "ESC0092",
+      "lat": -27.233307,
+      "lng": -49.044733
+    },
+    {
+      "id": 93,
+      "nome": "COLEGIO INSA DE ARARAS",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0093",
+      "lat": -26.294851,
+      "lng": -48.881016
+    },
+    {
+      "id": 94,
+      "nome": "COEDUCAR",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0094",
+      "lat": -26.338704,
+      "lng": -49.326408
+    },
+    {
+      "id": 95,
+      "nome": "COLEGIO NATUREZA",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0095",
+      "lat": -26.704579,
+      "lng": -48.298176
+    },
+    {
+      "id": 96,
+      "nome": "COLEGIO JOHN KENNEDY",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0096",
+      "lat": -26.939868,
+      "lng": -48.828664
+    },
+    {
+      "id": 97,
+      "nome": "COLEGIO CÓI",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0097",
+      "lat": -27.757571,
+      "lng": -48.672722
+    },
+    {
+      "id": 98,
+      "nome": "COLÉGIO SÃO BENEDITO",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0098",
+      "lat": -27.931264,
+      "lng": -48.373995
+    },
+    {
+      "id": 99,
+      "nome": "INSTITUTO BARONEZA DE REZENDE",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0099",
+      "lat": -26.998017,
+      "lng": -49.342416
+    },
+    {
+      "id": 100,
+      "nome": "EXTERNATO SANTA TEREZINHA",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0100",
+      "lat": -27.488095,
+      "lng": -49.823161
+    },
+    {
+      "id": 101,
+      "nome": "COLÉGIO PORTINARI (COC)",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0101",
+      "lat": -26.195752,
+      "lng": -48.587336
+    },
+    {
+      "id": 102,
+      "nome": "COLÉGIO ALEM",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0102",
+      "lat": -27.173408,
+      "lng": -49.150303
+    },
+    {
+      "id": 103,
+      "nome": "ESCOLA DA BISA",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0103",
+      "lat": -26.30778,
+      "lng": -48.44202
+    },
+    {
+      "id": 104,
+      "nome": "COLÉGIO DINÂMICO DE LIMEIRA",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0104",
+      "lat": -26.573268,
+      "lng": -49.683734
+    },
+    {
+      "id": 105,
+      "nome": "LICEU MONTEIRO LOBATO",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0105",
+      "lat": -27.421906,
+      "lng": -48.257846
+    },
+    {
+      "id": 106,
+      "nome": "COLÉGIO COOPEL",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0106",
+      "lat": -27.032976,
+      "lng": -48.248032
+    },
+    {
+      "id": 107,
+      "nome": "ESCOLA BEE HAPPY",
+      "cidade": "Piracicaba",
+      "estado": "SC",
+      "codigo": "ESC0107",
+      "lat": -26.309335,
+      "lng": -48.098714
+    },
+    {
+      "id": 108,
+      "nome": "COLEGIO APROVADO",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0108",
+      "lat": -27.611532,
+      "lng": -48.437731
+    },
+    {
+      "id": 109,
+      "nome": "COLEGIO APROVADO - RIO DAS OSTRAS",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0109",
+      "lat": -27.462474,
+      "lng": -49.096653
+    },
+    {
+      "id": 110,
+      "nome": "JARDIM ESCOLA MUNDO FELIZ",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0110",
+      "lat": -26.06491,
+      "lng": -48.575039
+    },
+    {
+      "id": 111,
+      "nome": "APROVADO CBO - UNIDADE 3",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0111",
+      "lat": -26.24244,
+      "lng": -48.31148
+    },
+    {
+      "id": 112,
+      "nome": "INSTITUTO ELLOS DE EDUCAÇÃO",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0112",
+      "lat": -27.342612,
+      "lng": -49.066226
+    },
+    {
+      "id": 113,
+      "nome": "COLEGIO UEDA PECANHA",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0113",
+      "lat": -27.799135,
+      "lng": -48.088563
+    },
+    {
+      "id": 114,
+      "nome": "COLÉGIO AMÉRICA DO SUL",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0114",
+      "lat": -26.550059,
+      "lng": -48.694335
+    },
+    {
+      "id": 115,
+      "nome": "COLEGIO ANGULAR",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0115",
+      "lat": -26.84539,
+      "lng": -49.504375
+    },
+    {
+      "id": 116,
+      "nome": "COLEGIO ORLEANS E BRAGANCA",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0116",
+      "lat": -27.703798,
+      "lng": -48.746406
+    },
+    {
+      "id": 117,
+      "nome": "COLEGIO MIRTES BARBOSA",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0117",
+      "lat": -27.713732,
+      "lng": -48.637171
+    },
+    {
+      "id": 118,
+      "nome": "COLEGIO SANTANNA",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0118",
+      "lat": -26.743044,
+      "lng": -48.830358
+    },
+    {
+      "id": 119,
+      "nome": "CENTRO EDUCACIONAL INFANTIL BEM VIVER",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0119",
+      "lat": -27.247402,
+      "lng": -49.013435
+    },
+    {
+      "id": 120,
+      "nome": "COLÉGIO FOCO",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0120",
+      "lat": -27.29636,
+      "lng": -48.870636
+    },
+    {
+      "id": 121,
+      "nome": "INSTITUTO EDUCACIONAL RECANTO DOS ANJOS",
+      "cidade": "RJ-MG",
+      "estado": "SC",
+      "codigo": "ESC0121",
+      "lat": -27.309753,
+      "lng": -49.527248
+    },
+    {
+      "id": 122,
+      "nome": "COLÉGIO CRIATIVO",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0122",
+      "lat": -27.714794,
+      "lng": -48.591146
+    },
+    {
+      "id": 123,
+      "nome": "INSTITUTO PERFIL DE EDUCAÇÃO",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0123",
+      "lat": -26.683315,
+      "lng": -48.442368
+    },
+    {
+      "id": 124,
+      "nome": "CENTRO EDUCACIONAL DE ORLÂNDIA - ANGLO",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0124",
+      "lat": -27.79583,
+      "lng": -49.257826
+    },
+    {
+      "id": 125,
+      "nome": "COLEGIO VILLA LOBOS",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0125",
+      "lat": -26.998816,
+      "lng": -48.083695
+    },
+    {
+      "id": 126,
+      "nome": "COLEGIO LUMEN",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0126",
+      "lat": -27.570816,
+      "lng": -48.83204
+    },
+    {
+      "id": 127,
+      "nome": "COLÉGIO ATENAS",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0127",
+      "lat": -26.176796,
+      "lng": -49.257305
+    },
+    {
+      "id": 128,
+      "nome": "ESCOLA CRESCER - BATATAIS",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0128",
+      "lat": -27.439068,
+      "lng": -49.346233
+    },
+    {
+      "id": 129,
+      "nome": "COLEGIO CAPELLA KIDS",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0129",
+      "lat": -26.377155,
+      "lng": -49.160209
+    },
+    {
+      "id": 130,
+      "nome": "COLEGIO PIRÂMIDE (CAJURU)",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0130",
+      "lat": -26.869625,
+      "lng": -49.507722
+    },
+    {
+      "id": 131,
+      "nome": "CENTRO DE EDUCAÇÃO CRESCER",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0131",
+      "lat": -26.92396,
+      "lng": -49.369412
+    },
+    {
+      "id": 132,
+      "nome": "COLEGIO CAETANO CAPRICIO",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0132",
+      "lat": -27.975577,
+      "lng": -48.751752
+    },
+    {
+      "id": 133,
+      "nome": "ESCOLA DA CIDADE",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0133",
+      "lat": -26.813365,
+      "lng": -48.889726
+    },
+    {
+      "id": 134,
+      "nome": "ESCOLA TIA OLIVIA",
+      "cidade": "RP",
+      "estado": "SC",
+      "codigo": "ESC0134",
+      "lat": -27.579965,
+      "lng": -48.07548
+    },
+    {
+      "id": 135,
+      "nome": "COLÉGIO SOMAR",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0135",
+      "lat": -26.236711,
+      "lng": -49.905342
+    },
+    {
+      "id": 136,
+      "nome": "COLÉGIO COOPERE",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0136",
+      "lat": -27.625603,
+      "lng": -49.846562
+    },
+    {
+      "id": 137,
+      "nome": "COLÉGIO OBJETIVO FERNANDÓPOLIS",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0137",
+      "lat": -27.303282,
+      "lng": -48.318327
+    },
+    {
+      "id": 138,
+      "nome": "OBJETIVO JOSÉ BONIFÁCIO",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0138",
+      "lat": -26.941561,
+      "lng": -48.29171
+    },
+    {
+      "id": 139,
+      "nome": "ESCOLA SEI ANGLO ITÁPOLIS",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0139",
+      "lat": -26.026497,
+      "lng": -49.787027
+    },
+    {
+      "id": 140,
+      "nome": "COLÉGIO DRUMMOND 2025",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0140",
+      "lat": -27.731423,
+      "lng": -49.525742
+    },
+    {
+      "id": 141,
+      "nome": "COLÉGIO DINÂMICO",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0141",
+      "lat": -26.274038,
+      "lng": -49.341996
+    },
+    {
+      "id": 142,
+      "nome": "COLÉGIO LUMINUM DELPHOS",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0142",
+      "lat": -26.547637,
+      "lng": -49.845202
+    },
+    {
+      "id": 143,
+      "nome": "AMÉRICA BILINGUAL EDUCATION",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0143",
+      "lat": -27.091705,
+      "lng": -48.795371
+    },
+    {
+      "id": 144,
+      "nome": "SEB ANGLO BORBOREMA",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0144",
+      "lat": -26.596003,
+      "lng": -49.248853
+    },
+    {
+      "id": 145,
+      "nome": "ESCOLA JEAN PIAGET",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0145",
+      "lat": -27.903971,
+      "lng": -48.665816
+    },
+    {
+      "id": 146,
+      "nome": "COLEGIO AMOR E CUIDADO",
+      "cidade": "SJRP",
+      "estado": "SC",
+      "codigo": "ESC0146",
+      "lat": -27.829947,
+      "lng": -49.316079
+    },
+    {
+      "id": 147,
+      "nome": "COLÉGIO EDUCAR",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0147",
+      "lat": -27.506035,
+      "lng": -49.836115
+    },
+    {
+      "id": 148,
+      "nome": "COLEGIO GIORDANO",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0148",
+      "lat": -26.983687,
+      "lng": -49.278103
+    },
+    {
+      "id": 149,
+      "nome": "CIG - COLÉGIO INTEGRADO DE GUARULHOS",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0149",
+      "lat": -27.575741,
+      "lng": -49.268548
+    },
+    {
+      "id": 150,
+      "nome": "ANGLO ALANTE GUARULHOS",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0150",
+      "lat": -27.197802,
+      "lng": -48.319152
+    },
+    {
+      "id": 151,
+      "nome": "ANGLO ALANTE JUNDIAI",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0151",
+      "lat": -27.385664,
+      "lng": -48.285719
+    },
+    {
+      "id": 152,
+      "nome": "ANGLO ALANTE BUTANTÃ",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0152",
+      "lat": -27.172817,
+      "lng": -48.766094
+    },
+    {
+      "id": 153,
+      "nome": "COLEGIO IAPI",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0153",
+      "lat": -27.694635,
+      "lng": -48.472743
+    },
+    {
+      "id": 154,
+      "nome": "COLÉGIO ANGLO CHÁCARA SANTO ANTÔNIO",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0154",
+      "lat": -26.201105,
+      "lng": -48.613994
+    },
+    {
+      "id": 155,
+      "nome": "CTO - COLÉGIO THABATA OLIVEIRA",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0155",
+      "lat": -26.198158,
+      "lng": -48.406245
+    },
+    {
+      "id": 156,
+      "nome": "COLEGIO POTIGUAR",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0156",
+      "lat": -27.86363,
+      "lng": -49.591501
+    },
+    {
+      "id": 157,
+      "nome": "COLÉGIO SONHO MÁGICO",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0157",
+      "lat": -26.761917,
+      "lng": -48.477509
+    },
+    {
+      "id": 158,
+      "nome": "COLEGIO FONSECA SIQUEIRA",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0158",
+      "lat": -26.362482,
+      "lng": -49.097628
+    },
+    {
+      "id": 159,
+      "nome": "ESCOLA BATISTA DE ITAPEVI",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0159",
+      "lat": -27.991126,
+      "lng": -48.108486
+    },
+    {
+      "id": 160,
+      "nome": "COLÉGIO GÊNESE",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0160",
+      "lat": -27.318949,
+      "lng": -49.734092
+    },
+    {
+      "id": 161,
+      "nome": "COLEGIO SAFFIRA",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0161",
+      "lat": -26.05122,
+      "lng": -49.150108
+    },
+    {
+      "id": 162,
+      "nome": "COLEGIO VIDAS",
+      "cidade": "SP1",
+      "estado": "SC",
+      "codigo": "ESC0162",
+      "lat": -27.171136,
+      "lng": -49.516735
+    },
+    {
+      "id": 163,
+      "nome": "ESCOLA SAO JOSE DE VILA MATILDE",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0163",
+      "lat": -26.223239,
+      "lng": -49.803044
+    },
+    {
+      "id": 164,
+      "nome": "COLÉGIO RUMO INICIAL",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0164",
+      "lat": -27.650516,
+      "lng": -49.634238
+    },
+    {
+      "id": 165,
+      "nome": "COLÉGIO MASTER",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0165",
+      "lat": -27.280055,
+      "lng": -49.170809
+    },
+    {
+      "id": 166,
+      "nome": "COLEGIO CRISTAO LEAO DE JUDA",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0166",
+      "lat": -27.105405,
+      "lng": -49.994394
+    },
+    {
+      "id": 167,
+      "nome": "ESCOLA INFANTIL DULCE HELENA",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0167",
+      "lat": -27.840147,
+      "lng": -49.14865
+    },
+    {
+      "id": 168,
+      "nome": "COLEGIO BERYON",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0168",
+      "lat": -26.633472,
+      "lng": -48.459459
+    },
+    {
+      "id": 169,
+      "nome": "COLÉGIO INTEGRADO",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0169",
+      "lat": -27.374334,
+      "lng": -49.341372
+    },
+    {
+      "id": 170,
+      "nome": "COLEGIO OBEDE EDOM",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0170",
+      "lat": -27.937453,
+      "lng": -49.012836
+    },
+    {
+      "id": 171,
+      "nome": "COLÉGIO MARTINS PENNA",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0171",
+      "lat": -27.26124,
+      "lng": -49.034519
+    },
+    {
+      "id": 172,
+      "nome": "COLÉGIO MILÊNIUM",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0172",
+      "lat": -27.179098,
+      "lng": -48.552735
+    },
+    {
+      "id": 173,
+      "nome": "CENTRO EDUCACIONAL FLORESCER",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0173",
+      "lat": -27.868803,
+      "lng": -49.083892
+    },
+    {
+      "id": 174,
+      "nome": "COLÉGIO SIMETRIA",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0174",
+      "lat": -26.992269,
+      "lng": -49.939051
+    },
+    {
+      "id": 175,
+      "nome": "ANGLO ALANTE SÃO JOSÉ DOS CAMPOS",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0175",
+      "lat": -27.506825,
+      "lng": -48.797761
+    },
+    {
+      "id": 176,
+      "nome": "ESCOLA ANA MORAES",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0176",
+      "lat": -26.534561,
+      "lng": -48.788471
+    },
+    {
+      "id": 177,
+      "nome": "COLÉGIO IBIRACY",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0177",
+      "lat": -27.858027,
+      "lng": -49.617363
+    },
+    {
+      "id": 178,
+      "nome": "ESCOLA INFANTIL TINDOLELÊ",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0178",
+      "lat": -27.66427,
+      "lng": -49.020249
+    },
+    {
+      "id": 179,
+      "nome": "ESCOLA SONHO REAL",
+      "cidade": "SP2",
+      "estado": "SC",
+      "codigo": "ESC0179",
+      "lat": -27.373683,
+      "lng": -49.6995
+    },
+    {
+      "id": 180,
+      "nome": "POLI 2 - UNIDADE ALTO DA BOA VISTA",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0180",
+      "lat": -27.819221,
+      "lng": -48.332385
+    },
+    {
+      "id": 181,
+      "nome": "COLÉGIO IGUATEMI",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0181",
+      "lat": -27.850291,
+      "lng": -48.41477
+    },
+    {
+      "id": 182,
+      "nome": "CENTRO EDUCACIONAL MARISOL",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0182",
+      "lat": -27.625663,
+      "lng": -49.024914
+    },
+    {
+      "id": 183,
+      "nome": "COLEGIO LARANJAL",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0183",
+      "lat": -27.894914,
+      "lng": -48.480344
+    },
+    {
+      "id": 184,
+      "nome": "POLI 1 - UNIDADE CENTRO",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0184",
+      "lat": -27.475997,
+      "lng": -49.015215
+    },
+    {
+      "id": 185,
+      "nome": "COLEGIO ILUMIARE",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0185",
+      "lat": -27.996842,
+      "lng": -49.598927
+    },
+    {
+      "id": 186,
+      "nome": "ESCOLA SAGRADA FAMILIA",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0186",
+      "lat": -26.908695,
+      "lng": -49.667584
+    },
+    {
+      "id": 187,
+      "nome": "VECTOR OBJETIVO BOITUVA",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0187",
+      "lat": -26.234579,
+      "lng": -49.49179
+    },
+    {
+      "id": 188,
+      "nome": "ESCOLA SAO JOSE DE PORTO FELIZ",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0188",
+      "lat": -26.872461,
+      "lng": -48.136235
+    },
+    {
+      "id": 189,
+      "nome": "CEPG - CENTRO EDUCACIONAL PERES GUIMARÃES",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0189",
+      "lat": -26.320181,
+      "lng": -49.655452
+    },
+    {
+      "id": 190,
+      "nome": "COLEGIO ORIGEM",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0190",
+      "lat": -27.473622,
+      "lng": -49.294125
+    },
+    {
+      "id": 191,
+      "nome": "PLENITUDE DE MAIRINQUE",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0191",
+      "lat": -26.508104,
+      "lng": -48.107204
+    },
+    {
+      "id": 192,
+      "nome": "OBJETIVO CESARIO LANGE",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0192",
+      "lat": -26.577031,
+      "lng": -48.03498
+    },
+    {
+      "id": 193,
+      "nome": "COLEGIO OBJETIVO TATUI",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0193",
+      "lat": -27.617189,
+      "lng": -49.480939
+    },
+    {
+      "id": 194,
+      "nome": "COLEGIO PORTAL",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0194",
+      "lat": -27.562703,
+      "lng": -49.105231
+    },
+    {
+      "id": 195,
+      "nome": "COLEGIO EQUILIBRIUM",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0195",
+      "lat": -26.98063,
+      "lng": -49.891683
+    },
+    {
+      "id": 196,
+      "nome": "COLÉGIO OBJETIVO PILAR DO SUL",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0196",
+      "lat": -27.798195,
+      "lng": -49.008375
+    },
+    {
+      "id": 197,
+      "nome": "EDUCANDARIO BEZERRA DE MENEZES",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0197",
+      "lat": -26.615934,
+      "lng": -48.260901
+    },
+    {
+      "id": 198,
+      "nome": "COLEGIO CRISTAO ALMEIDA BARROS",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0198",
+      "lat": -27.954672,
+      "lng": -49.374717
+    },
+    {
+      "id": 199,
+      "nome": "COLEGIO EXPANDE",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0199",
+      "lat": -27.907431,
+      "lng": -49.520825
+    },
+    {
+      "id": 200,
+      "nome": "COLEGIO PORTINARI - ANOS INICIAIS",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0200",
+      "lat": -26.463177,
+      "lng": -49.955659
+    },
+    {
+      "id": 201,
+      "nome": "COLEGIO PORTINARI - ED. INFANTIL",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0201",
+      "lat": -27.220342,
+      "lng": -48.1004
+    },
+    {
+      "id": 202,
+      "nome": "COLÉGIO GALILEU - UNIDADE PARQUE DAS ÁGUAS",
+      "cidade": "Sorocaba",
+      "estado": "SC",
+      "codigo": "ESC0202",
+      "lat": -26.237094,
+      "lng": -49.803217
+    },
+    {
+      "id": 203,
+      "nome": "INSTITUTO MARIA AUXILIADORA - IMA",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0203",
+      "lat": -27.422061,
+      "lng": -49.001553
+    },
+    {
+      "id": 204,
+      "nome": "ALIANÇA - FUNDAMENTAL I",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0204",
+      "lat": -26.202228,
+      "lng": -48.63431
+    },
+    {
+      "id": 205,
+      "nome": "ALIANÇA - FUNDAMENTAL II",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0205",
+      "lat": -26.957404,
+      "lng": -49.413187
+    },
+    {
+      "id": 206,
+      "nome": "ESCOLA EVANGELICA BOAS NOVAS",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0206",
+      "lat": -27.290117,
+      "lng": -48.403112
+    },
+    {
+      "id": 207,
+      "nome": "ALIANÇA - INFANTIL",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0207",
+      "lat": -26.097084,
+      "lng": -48.55824
+    },
+    {
+      "id": 208,
+      "nome": "ESCOLA ALDEIA BETANIA",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0208",
+      "lat": -27.384222,
+      "lng": -49.054165
+    },
+    {
+      "id": 209,
+      "nome": "ALIANÇA - ENSINO MÉDIO",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0209",
+      "lat": -26.867181,
+      "lng": -49.513703
+    },
+    {
+      "id": 210,
+      "nome": "COLEGIO FATIMA",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0210",
+      "lat": -27.089726,
+      "lng": -48.944466
+    },
+    {
+      "id": 211,
+      "nome": "CENTRO EDUCACIONAL MUNDO MAGICO",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0211",
+      "lat": -26.065608,
+      "lng": -48.641317
+    },
+    {
+      "id": 212,
+      "nome": "COLEGIO FILEO",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0212",
+      "lat": -26.256597,
+      "lng": -49.868713
+    },
+    {
+      "id": 213,
+      "nome": "COLEGIO COLONIA HOLANDESA",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0213",
+      "lat": -27.094084,
+      "lng": -49.624372
+    },
+    {
+      "id": 214,
+      "nome": "CENTRO EDUCACIONAL MICHERROT",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0214",
+      "lat": -26.485124,
+      "lng": -48.826674
+    },
+    {
+      "id": 215,
+      "nome": "COLÉGIO TERCEIRA DIMENSÃO",
+      "cidade": "Sul",
+      "estado": "SC",
+      "codigo": "ESC0215",
+      "lat": -26.83091,
+      "lng": -48.927988
+    },
+    {
+      "id": 216,
+      "nome": "COLEGIOS UNIVAP - UNIDADE AQUARIUS",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0216",
+      "lat": -27.710689,
+      "lng": -48.832123
+    },
+    {
+      "id": 217,
+      "nome": "COLÉGIO COTET",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0217",
+      "lat": -27.18592,
+      "lng": -48.287884
+    },
+    {
+      "id": 218,
+      "nome": "NÚCLEO EDUCACIONAL MARIANA RIBEIRO",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0218",
+      "lat": -27.031742,
+      "lng": -49.86074
+    },
+    {
+      "id": 219,
+      "nome": "COLÉGIO ACEI",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0219",
+      "lat": -27.761446,
+      "lng": -48.069933
+    },
+    {
+      "id": 220,
+      "nome": "COLÉGIO CAIÇARA",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0220",
+      "lat": -27.226246,
+      "lng": -49.480335
+    },
+    {
+      "id": 221,
+      "nome": "EDUCARTE",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0221",
+      "lat": -27.927091,
+      "lng": -49.042844
+    },
+    {
+      "id": 222,
+      "nome": "ESCOLA WALTER FORTUNATO",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0222",
+      "lat": -27.077447,
+      "lng": -49.549113
+    },
+    {
+      "id": 223,
+      "nome": "COLEGIOS UNIVAP - UNIDADE VILLA BRANCA",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0223",
+      "lat": -26.465957,
+      "lng": -49.633646
+    },
+    {
+      "id": 224,
+      "nome": "COLEGIO EL SHADAY",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0224",
+      "lat": -26.189271,
+      "lng": -49.475235
+    },
+    {
+      "id": 225,
+      "nome": "INSTITUTO IDEIA",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0225",
+      "lat": -26.070041,
+      "lng": -48.074343
+    },
+    {
+      "id": 226,
+      "nome": "ESCOLA CULTURAL BRASILEIRA",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0226",
+      "lat": -27.454856,
+      "lng": -48.422109
+    },
+    {
+      "id": 227,
+      "nome": "COLEGIO VIA SOLIS",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0227",
+      "lat": -27.967554,
+      "lng": -48.383854
+    },
+    {
+      "id": 228,
+      "nome": "COLEGIO EL SHADAY (INFANTIL)",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0228",
+      "lat": -26.045737,
+      "lng": -49.066894
+    },
+    {
+      "id": 229,
+      "nome": "INSTITUTO IDEIA (FUND - 2)",
+      "cidade": "Vale",
+      "estado": "SC",
+      "codigo": "ESC0229",
+      "lat": -27.261527,
+      "lng": -48.555913
+    }
+  ],
+  "orientador_escola": [
+    {
+      "id": 1,
+      "orientador_id": 8,
+      "escola_id": 1,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 2,
+      "orientador_id": 8,
+      "escola_id": 2,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 3,
+      "orientador_id": 8,
+      "escola_id": 3,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 4,
+      "orientador_id": 8,
+      "escola_id": 4,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 5,
+      "orientador_id": 8,
+      "escola_id": 5,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 6,
+      "orientador_id": 8,
+      "escola_id": 6,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 7,
+      "orientador_id": 8,
+      "escola_id": 7,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 8,
+      "orientador_id": 8,
+      "escola_id": 8,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 9,
+      "orientador_id": 8,
+      "escola_id": 9,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 10,
+      "orientador_id": 8,
+      "escola_id": 10,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 11,
+      "orientador_id": 10,
+      "escola_id": 11,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 12,
+      "orientador_id": 10,
+      "escola_id": 12,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 13,
+      "orientador_id": 10,
+      "escola_id": 13,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 14,
+      "orientador_id": 10,
+      "escola_id": 14,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 15,
+      "orientador_id": 10,
+      "escola_id": 15,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 16,
+      "orientador_id": 10,
+      "escola_id": 16,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 17,
+      "orientador_id": 10,
+      "escola_id": 17,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 18,
+      "orientador_id": 10,
+      "escola_id": 18,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 19,
+      "orientador_id": 10,
+      "escola_id": 19,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 20,
+      "orientador_id": 10,
+      "escola_id": 20,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 21,
+      "orientador_id": 10,
+      "escola_id": 21,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 22,
+      "orientador_id": 14,
+      "escola_id": 22,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 23,
+      "orientador_id": 14,
+      "escola_id": 23,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 24,
+      "orientador_id": 14,
+      "escola_id": 24,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 25,
+      "orientador_id": 14,
+      "escola_id": 25,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 26,
+      "orientador_id": 14,
+      "escola_id": 26,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 27,
+      "orientador_id": 14,
+      "escola_id": 27,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 28,
+      "orientador_id": 14,
+      "escola_id": 28,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 29,
+      "orientador_id": 14,
+      "escola_id": 29,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 30,
+      "orientador_id": 14,
+      "escola_id": 30,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 31,
+      "orientador_id": 14,
+      "escola_id": 31,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 32,
+      "orientador_id": 14,
+      "escola_id": 32,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 33,
+      "orientador_id": 14,
+      "escola_id": 33,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 34,
+      "orientador_id": 14,
+      "escola_id": 34,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 35,
+      "orientador_id": 14,
+      "escola_id": 35,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 36,
+      "orientador_id": 14,
+      "escola_id": 36,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 37,
+      "orientador_id": 7,
+      "escola_id": 37,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 38,
+      "orientador_id": 7,
+      "escola_id": 38,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 39,
+      "orientador_id": 7,
+      "escola_id": 39,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 40,
+      "orientador_id": 7,
+      "escola_id": 40,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 41,
+      "orientador_id": 7,
+      "escola_id": 41,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 42,
+      "orientador_id": 7,
+      "escola_id": 42,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 43,
+      "orientador_id": 7,
+      "escola_id": 43,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 44,
+      "orientador_id": 7,
+      "escola_id": 44,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 45,
+      "orientador_id": 7,
+      "escola_id": 45,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 46,
+      "orientador_id": 7,
+      "escola_id": 46,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 47,
+      "orientador_id": 7,
+      "escola_id": 47,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 48,
+      "orientador_id": 7,
+      "escola_id": 48,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 49,
+      "orientador_id": 7,
+      "escola_id": 49,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 50,
+      "orientador_id": 7,
+      "escola_id": 50,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 51,
+      "orientador_id": 7,
+      "escola_id": 51,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 52,
+      "orientador_id": 7,
+      "escola_id": 52,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 53,
+      "orientador_id": 7,
+      "escola_id": 53,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 54,
+      "orientador_id": 7,
+      "escola_id": 54,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 55,
+      "orientador_id": 9,
+      "escola_id": 55,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 56,
+      "orientador_id": 9,
+      "escola_id": 56,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 57,
+      "orientador_id": 9,
+      "escola_id": 57,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 58,
+      "orientador_id": 9,
+      "escola_id": 58,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 59,
+      "orientador_id": 9,
+      "escola_id": 59,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 60,
+      "orientador_id": 9,
+      "escola_id": 60,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 61,
+      "orientador_id": 9,
+      "escola_id": 61,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 62,
+      "orientador_id": 4,
+      "escola_id": 62,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 63,
+      "orientador_id": 4,
+      "escola_id": 63,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 64,
+      "orientador_id": 4,
+      "escola_id": 64,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 65,
+      "orientador_id": 4,
+      "escola_id": 65,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 66,
+      "orientador_id": 4,
+      "escola_id": 66,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 67,
+      "orientador_id": 4,
+      "escola_id": 67,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 68,
+      "orientador_id": 4,
+      "escola_id": 68,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 69,
+      "orientador_id": 4,
+      "escola_id": 69,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 70,
+      "orientador_id": 4,
+      "escola_id": 70,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 71,
+      "orientador_id": 4,
+      "escola_id": 71,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 72,
+      "orientador_id": 4,
+      "escola_id": 72,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 73,
+      "orientador_id": 17,
+      "escola_id": 73,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 74,
+      "orientador_id": 17,
+      "escola_id": 74,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 75,
+      "orientador_id": 17,
+      "escola_id": 75,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 76,
+      "orientador_id": 17,
+      "escola_id": 76,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 77,
+      "orientador_id": 17,
+      "escola_id": 77,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 78,
+      "orientador_id": 17,
+      "escola_id": 78,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 79,
+      "orientador_id": 17,
+      "escola_id": 79,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 80,
+      "orientador_id": 17,
+      "escola_id": 80,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 81,
+      "orientador_id": 17,
+      "escola_id": 81,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 82,
+      "orientador_id": 11,
+      "escola_id": 82,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 83,
+      "orientador_id": 11,
+      "escola_id": 83,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 84,
+      "orientador_id": 11,
+      "escola_id": 84,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 85,
+      "orientador_id": 11,
+      "escola_id": 85,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 86,
+      "orientador_id": 11,
+      "escola_id": 86,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 87,
+      "orientador_id": 11,
+      "escola_id": 87,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 88,
+      "orientador_id": 11,
+      "escola_id": 88,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 89,
+      "orientador_id": 11,
+      "escola_id": 89,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 90,
+      "orientador_id": 11,
+      "escola_id": 90,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 91,
+      "orientador_id": 11,
+      "escola_id": 91,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 92,
+      "orientador_id": 11,
+      "escola_id": 92,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 93,
+      "orientador_id": 5,
+      "escola_id": 93,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 94,
+      "orientador_id": 5,
+      "escola_id": 94,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 95,
+      "orientador_id": 5,
+      "escola_id": 95,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 96,
+      "orientador_id": 5,
+      "escola_id": 96,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 97,
+      "orientador_id": 5,
+      "escola_id": 97,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 98,
+      "orientador_id": 5,
+      "escola_id": 98,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 99,
+      "orientador_id": 5,
+      "escola_id": 99,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 100,
+      "orientador_id": 5,
+      "escola_id": 100,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 101,
+      "orientador_id": 5,
+      "escola_id": 101,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 102,
+      "orientador_id": 5,
+      "escola_id": 102,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 103,
+      "orientador_id": 5,
+      "escola_id": 103,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 104,
+      "orientador_id": 5,
+      "escola_id": 104,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 105,
+      "orientador_id": 5,
+      "escola_id": 105,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 106,
+      "orientador_id": 5,
+      "escola_id": 106,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 107,
+      "orientador_id": 5,
+      "escola_id": 107,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 108,
+      "orientador_id": 1,
+      "escola_id": 108,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 109,
+      "orientador_id": 1,
+      "escola_id": 109,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 110,
+      "orientador_id": 1,
+      "escola_id": 110,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 111,
+      "orientador_id": 1,
+      "escola_id": 111,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 112,
+      "orientador_id": 1,
+      "escola_id": 112,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 113,
+      "orientador_id": 1,
+      "escola_id": 113,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 114,
+      "orientador_id": 1,
+      "escola_id": 114,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 115,
+      "orientador_id": 1,
+      "escola_id": 115,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 116,
+      "orientador_id": 1,
+      "escola_id": 116,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 117,
+      "orientador_id": 1,
+      "escola_id": 117,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 118,
+      "orientador_id": 1,
+      "escola_id": 118,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 119,
+      "orientador_id": 1,
+      "escola_id": 119,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 120,
+      "orientador_id": 1,
+      "escola_id": 120,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 121,
+      "orientador_id": 1,
+      "escola_id": 121,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 122,
+      "orientador_id": 16,
+      "escola_id": 122,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 123,
+      "orientador_id": 16,
+      "escola_id": 123,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 124,
+      "orientador_id": 16,
+      "escola_id": 124,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 125,
+      "orientador_id": 16,
+      "escola_id": 125,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 126,
+      "orientador_id": 16,
+      "escola_id": 126,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 127,
+      "orientador_id": 16,
+      "escola_id": 127,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 128,
+      "orientador_id": 16,
+      "escola_id": 128,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 129,
+      "orientador_id": 16,
+      "escola_id": 129,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 130,
+      "orientador_id": 16,
+      "escola_id": 130,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 131,
+      "orientador_id": 16,
+      "escola_id": 131,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 132,
+      "orientador_id": 16,
+      "escola_id": 132,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 133,
+      "orientador_id": 16,
+      "escola_id": 133,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 134,
+      "orientador_id": 16,
+      "escola_id": 134,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 135,
+      "orientador_id": 12,
+      "escola_id": 135,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 136,
+      "orientador_id": 12,
+      "escola_id": 136,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 137,
+      "orientador_id": 12,
+      "escola_id": 137,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 138,
+      "orientador_id": 12,
+      "escola_id": 138,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 139,
+      "orientador_id": 12,
+      "escola_id": 139,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 140,
+      "orientador_id": 12,
+      "escola_id": 140,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 141,
+      "orientador_id": 12,
+      "escola_id": 141,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 142,
+      "orientador_id": 12,
+      "escola_id": 142,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 143,
+      "orientador_id": 12,
+      "escola_id": 143,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 144,
+      "orientador_id": 12,
+      "escola_id": 144,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 145,
+      "orientador_id": 12,
+      "escola_id": 145,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 146,
+      "orientador_id": 12,
+      "escola_id": 146,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 147,
+      "orientador_id": 6,
+      "escola_id": 147,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 148,
+      "orientador_id": 6,
+      "escola_id": 148,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 149,
+      "orientador_id": 6,
+      "escola_id": 149,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 150,
+      "orientador_id": 6,
+      "escola_id": 150,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 151,
+      "orientador_id": 6,
+      "escola_id": 151,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 152,
+      "orientador_id": 6,
+      "escola_id": 152,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 153,
+      "orientador_id": 6,
+      "escola_id": 153,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 154,
+      "orientador_id": 6,
+      "escola_id": 154,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 155,
+      "orientador_id": 6,
+      "escola_id": 155,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 156,
+      "orientador_id": 6,
+      "escola_id": 156,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 157,
+      "orientador_id": 6,
+      "escola_id": 157,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 158,
+      "orientador_id": 6,
+      "escola_id": 158,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 159,
+      "orientador_id": 6,
+      "escola_id": 159,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 160,
+      "orientador_id": 6,
+      "escola_id": 160,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 161,
+      "orientador_id": 6,
+      "escola_id": 161,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 162,
+      "orientador_id": 6,
+      "escola_id": 162,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 163,
+      "orientador_id": 15,
+      "escola_id": 163,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 164,
+      "orientador_id": 15,
+      "escola_id": 164,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 165,
+      "orientador_id": 15,
+      "escola_id": 165,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 166,
+      "orientador_id": 15,
+      "escola_id": 166,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 167,
+      "orientador_id": 15,
+      "escola_id": 167,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 168,
+      "orientador_id": 15,
+      "escola_id": 168,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 169,
+      "orientador_id": 15,
+      "escola_id": 169,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 170,
+      "orientador_id": 15,
+      "escola_id": 170,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 171,
+      "orientador_id": 15,
+      "escola_id": 171,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 172,
+      "orientador_id": 15,
+      "escola_id": 172,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 173,
+      "orientador_id": 15,
+      "escola_id": 173,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 174,
+      "orientador_id": 15,
+      "escola_id": 174,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 175,
+      "orientador_id": 15,
+      "escola_id": 175,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 176,
+      "orientador_id": 15,
+      "escola_id": 176,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 177,
+      "orientador_id": 15,
+      "escola_id": 177,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 178,
+      "orientador_id": 15,
+      "escola_id": 178,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 179,
+      "orientador_id": 15,
+      "escola_id": 179,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 180,
+      "orientador_id": 13,
+      "escola_id": 180,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 181,
+      "orientador_id": 13,
+      "escola_id": 181,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 182,
+      "orientador_id": 13,
+      "escola_id": 182,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 183,
+      "orientador_id": 13,
+      "escola_id": 183,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 184,
+      "orientador_id": 13,
+      "escola_id": 184,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 185,
+      "orientador_id": 13,
+      "escola_id": 185,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 186,
+      "orientador_id": 13,
+      "escola_id": 186,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 187,
+      "orientador_id": 13,
+      "escola_id": 187,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 188,
+      "orientador_id": 13,
+      "escola_id": 188,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 189,
+      "orientador_id": 13,
+      "escola_id": 189,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 190,
+      "orientador_id": 13,
+      "escola_id": 190,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 191,
+      "orientador_id": 13,
+      "escola_id": 191,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 192,
+      "orientador_id": 13,
+      "escola_id": 192,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 193,
+      "orientador_id": 13,
+      "escola_id": 193,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 194,
+      "orientador_id": 13,
+      "escola_id": 194,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 195,
+      "orientador_id": 13,
+      "escola_id": 195,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 196,
+      "orientador_id": 13,
+      "escola_id": 196,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 197,
+      "orientador_id": 13,
+      "escola_id": 197,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 198,
+      "orientador_id": 13,
+      "escola_id": 198,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 199,
+      "orientador_id": 13,
+      "escola_id": 199,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 200,
+      "orientador_id": 13,
+      "escola_id": 200,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 201,
+      "orientador_id": 13,
+      "escola_id": 201,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 202,
+      "orientador_id": 13,
+      "escola_id": 202,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 203,
+      "orientador_id": 3,
+      "escola_id": 203,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 204,
+      "orientador_id": 3,
+      "escola_id": 204,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 205,
+      "orientador_id": 3,
+      "escola_id": 205,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 206,
+      "orientador_id": 3,
+      "escola_id": 206,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 207,
+      "orientador_id": 3,
+      "escola_id": 207,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 208,
+      "orientador_id": 3,
+      "escola_id": 208,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 209,
+      "orientador_id": 3,
+      "escola_id": 209,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 210,
+      "orientador_id": 3,
+      "escola_id": 210,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 211,
+      "orientador_id": 3,
+      "escola_id": 211,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 212,
+      "orientador_id": 3,
+      "escola_id": 212,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 213,
+      "orientador_id": 3,
+      "escola_id": 213,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 214,
+      "orientador_id": 3,
+      "escola_id": 214,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 215,
+      "orientador_id": 3,
+      "escola_id": 215,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 216,
+      "orientador_id": 2,
+      "escola_id": 216,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 217,
+      "orientador_id": 2,
+      "escola_id": 217,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 218,
+      "orientador_id": 2,
+      "escola_id": 218,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 219,
+      "orientador_id": 2,
+      "escola_id": 219,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 220,
+      "orientador_id": 2,
+      "escola_id": 220,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 221,
+      "orientador_id": 2,
+      "escola_id": 221,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 222,
+      "orientador_id": 2,
+      "escola_id": 222,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 223,
+      "orientador_id": 2,
+      "escola_id": 223,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 224,
+      "orientador_id": 2,
+      "escola_id": 224,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 225,
+      "orientador_id": 2,
+      "escola_id": 225,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 226,
+      "orientador_id": 2,
+      "escola_id": 226,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 227,
+      "orientador_id": 2,
+      "escola_id": 227,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 228,
+      "orientador_id": 2,
+      "escola_id": 228,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    },
+    {
+      "id": 229,
+      "orientador_id": 2,
+      "escola_id": 229,
+      "data_visita_agendada": "2026-09-01",
+      "status": "pendente"
+    }
+  ],
+  "ativos": [
+    {
+      "id": 1,
+      "escola_id": 1,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10000",
+      "origem": "historico"
+    },
+    {
+      "id": 2,
+      "escola_id": 1,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10001",
+      "origem": "historico"
+    },
+    {
+      "id": 3,
+      "escola_id": 2,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10003",
+      "origem": "historico"
+    },
+    {
+      "id": 4,
+      "escola_id": 2,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10004",
+      "origem": "historico"
+    },
+    {
+      "id": 5,
+      "escola_id": 2,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10005",
+      "origem": "historico"
+    },
+    {
+      "id": 6,
+      "escola_id": 3,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10006",
+      "origem": "historico"
+    },
+    {
+      "id": 7,
+      "escola_id": 3,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10007",
+      "origem": "historico"
+    },
+    {
+      "id": 8,
+      "escola_id": 4,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10009",
+      "origem": "historico"
+    },
+    {
+      "id": 9,
+      "escola_id": 4,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10010",
+      "origem": "historico"
+    },
+    {
+      "id": 10,
+      "escola_id": 4,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10011",
+      "origem": "historico"
+    },
+    {
+      "id": 11,
+      "escola_id": 5,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10012",
+      "origem": "historico"
+    },
+    {
+      "id": 12,
+      "escola_id": 5,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10013",
+      "origem": "historico"
+    },
+    {
+      "id": 13,
+      "escola_id": 6,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10015",
+      "origem": "historico"
+    },
+    {
+      "id": 14,
+      "escola_id": 6,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10016",
+      "origem": "historico"
+    },
+    {
+      "id": 15,
+      "escola_id": 6,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10017",
+      "origem": "historico"
+    },
+    {
+      "id": 16,
+      "escola_id": 7,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10018",
+      "origem": "historico"
+    },
+    {
+      "id": 17,
+      "escola_id": 7,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10019",
+      "origem": "historico"
+    },
+    {
+      "id": 18,
+      "escola_id": 8,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10021",
+      "origem": "historico"
+    },
+    {
+      "id": 19,
+      "escola_id": 8,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10022",
+      "origem": "historico"
+    },
+    {
+      "id": 20,
+      "escola_id": 8,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10023",
+      "origem": "historico"
+    },
+    {
+      "id": 21,
+      "escola_id": 9,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10024",
+      "origem": "historico"
+    },
+    {
+      "id": 22,
+      "escola_id": 9,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10025",
+      "origem": "historico"
+    },
+    {
+      "id": 23,
+      "escola_id": 10,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10027",
+      "origem": "historico"
+    },
+    {
+      "id": 24,
+      "escola_id": 10,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10028",
+      "origem": "historico"
+    },
+    {
+      "id": 25,
+      "escola_id": 10,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10029",
+      "origem": "historico"
+    },
+    {
+      "id": 26,
+      "escola_id": 11,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10030",
+      "origem": "historico"
+    },
+    {
+      "id": 27,
+      "escola_id": 11,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10031",
+      "origem": "historico"
+    },
+    {
+      "id": 28,
+      "escola_id": 12,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10033",
+      "origem": "historico"
+    },
+    {
+      "id": 29,
+      "escola_id": 12,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10034",
+      "origem": "historico"
+    },
+    {
+      "id": 30,
+      "escola_id": 12,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10035",
+      "origem": "historico"
+    },
+    {
+      "id": 31,
+      "escola_id": 13,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10036",
+      "origem": "historico"
+    },
+    {
+      "id": 32,
+      "escola_id": 13,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10037",
+      "origem": "historico"
+    },
+    {
+      "id": 33,
+      "escola_id": 14,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10039",
+      "origem": "historico"
+    },
+    {
+      "id": 34,
+      "escola_id": 14,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10040",
+      "origem": "historico"
+    },
+    {
+      "id": 35,
+      "escola_id": 14,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10041",
+      "origem": "historico"
+    },
+    {
+      "id": 36,
+      "escola_id": 15,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10042",
+      "origem": "historico"
+    },
+    {
+      "id": 37,
+      "escola_id": 15,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10043",
+      "origem": "historico"
+    },
+    {
+      "id": 38,
+      "escola_id": 16,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10045",
+      "origem": "historico"
+    },
+    {
+      "id": 39,
+      "escola_id": 16,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10046",
+      "origem": "historico"
+    },
+    {
+      "id": 40,
+      "escola_id": 16,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10047",
+      "origem": "historico"
+    },
+    {
+      "id": 41,
+      "escola_id": 17,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10048",
+      "origem": "historico"
+    },
+    {
+      "id": 42,
+      "escola_id": 17,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10049",
+      "origem": "historico"
+    },
+    {
+      "id": 43,
+      "escola_id": 18,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10051",
+      "origem": "historico"
+    },
+    {
+      "id": 44,
+      "escola_id": 18,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10052",
+      "origem": "historico"
+    },
+    {
+      "id": 45,
+      "escola_id": 18,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10053",
+      "origem": "historico"
+    },
+    {
+      "id": 46,
+      "escola_id": 19,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10054",
+      "origem": "historico"
+    },
+    {
+      "id": 47,
+      "escola_id": 19,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10055",
+      "origem": "historico"
+    },
+    {
+      "id": 48,
+      "escola_id": 20,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10057",
+      "origem": "historico"
+    },
+    {
+      "id": 49,
+      "escola_id": 20,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10058",
+      "origem": "historico"
+    },
+    {
+      "id": 50,
+      "escola_id": 20,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10059",
+      "origem": "historico"
+    },
+    {
+      "id": 51,
+      "escola_id": 21,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10060",
+      "origem": "historico"
+    },
+    {
+      "id": 52,
+      "escola_id": 21,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10061",
+      "origem": "historico"
+    },
+    {
+      "id": 53,
+      "escola_id": 22,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10063",
+      "origem": "historico"
+    },
+    {
+      "id": 54,
+      "escola_id": 22,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10064",
+      "origem": "historico"
+    },
+    {
+      "id": 55,
+      "escola_id": 22,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10065",
+      "origem": "historico"
+    },
+    {
+      "id": 56,
+      "escola_id": 23,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10066",
+      "origem": "historico"
+    },
+    {
+      "id": 57,
+      "escola_id": 23,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10067",
+      "origem": "historico"
+    },
+    {
+      "id": 58,
+      "escola_id": 24,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10069",
+      "origem": "historico"
+    },
+    {
+      "id": 59,
+      "escola_id": 24,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10070",
+      "origem": "historico"
+    },
+    {
+      "id": 60,
+      "escola_id": 24,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10071",
+      "origem": "historico"
+    },
+    {
+      "id": 61,
+      "escola_id": 25,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10072",
+      "origem": "historico"
+    },
+    {
+      "id": 62,
+      "escola_id": 25,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10073",
+      "origem": "historico"
+    },
+    {
+      "id": 63,
+      "escola_id": 26,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10075",
+      "origem": "historico"
+    },
+    {
+      "id": 64,
+      "escola_id": 26,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10076",
+      "origem": "historico"
+    },
+    {
+      "id": 65,
+      "escola_id": 26,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10077",
+      "origem": "historico"
+    },
+    {
+      "id": 66,
+      "escola_id": 27,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10078",
+      "origem": "historico"
+    },
+    {
+      "id": 67,
+      "escola_id": 27,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10079",
+      "origem": "historico"
+    },
+    {
+      "id": 68,
+      "escola_id": 28,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10081",
+      "origem": "historico"
+    },
+    {
+      "id": 69,
+      "escola_id": 28,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10082",
+      "origem": "historico"
+    },
+    {
+      "id": 70,
+      "escola_id": 28,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10083",
+      "origem": "historico"
+    },
+    {
+      "id": 71,
+      "escola_id": 29,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10084",
+      "origem": "historico"
+    },
+    {
+      "id": 72,
+      "escola_id": 29,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10085",
+      "origem": "historico"
+    },
+    {
+      "id": 73,
+      "escola_id": 30,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10087",
+      "origem": "historico"
+    },
+    {
+      "id": 74,
+      "escola_id": 30,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10088",
+      "origem": "historico"
+    },
+    {
+      "id": 75,
+      "escola_id": 30,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10089",
+      "origem": "historico"
+    },
+    {
+      "id": 76,
+      "escola_id": 31,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10090",
+      "origem": "historico"
+    },
+    {
+      "id": 77,
+      "escola_id": 31,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10091",
+      "origem": "historico"
+    },
+    {
+      "id": 78,
+      "escola_id": 32,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10093",
+      "origem": "historico"
+    },
+    {
+      "id": 79,
+      "escola_id": 32,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10094",
+      "origem": "historico"
+    },
+    {
+      "id": 80,
+      "escola_id": 32,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10095",
+      "origem": "historico"
+    },
+    {
+      "id": 81,
+      "escola_id": 33,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10096",
+      "origem": "historico"
+    },
+    {
+      "id": 82,
+      "escola_id": 33,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10097",
+      "origem": "historico"
+    },
+    {
+      "id": 83,
+      "escola_id": 34,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10099",
+      "origem": "historico"
+    },
+    {
+      "id": 84,
+      "escola_id": 34,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10100",
+      "origem": "historico"
+    },
+    {
+      "id": 85,
+      "escola_id": 34,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10101",
+      "origem": "historico"
+    },
+    {
+      "id": 86,
+      "escola_id": 35,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10102",
+      "origem": "historico"
+    },
+    {
+      "id": 87,
+      "escola_id": 35,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10103",
+      "origem": "historico"
+    },
+    {
+      "id": 88,
+      "escola_id": 36,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10105",
+      "origem": "historico"
+    },
+    {
+      "id": 89,
+      "escola_id": 36,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10106",
+      "origem": "historico"
+    },
+    {
+      "id": 90,
+      "escola_id": 36,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10107",
+      "origem": "historico"
+    },
+    {
+      "id": 91,
+      "escola_id": 37,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10108",
+      "origem": "historico"
+    },
+    {
+      "id": 92,
+      "escola_id": 37,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10109",
+      "origem": "historico"
+    },
+    {
+      "id": 93,
+      "escola_id": 38,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10111",
+      "origem": "historico"
+    },
+    {
+      "id": 94,
+      "escola_id": 38,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10112",
+      "origem": "historico"
+    },
+    {
+      "id": 95,
+      "escola_id": 38,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10113",
+      "origem": "historico"
+    },
+    {
+      "id": 96,
+      "escola_id": 39,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10114",
+      "origem": "historico"
+    },
+    {
+      "id": 97,
+      "escola_id": 39,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10115",
+      "origem": "historico"
+    },
+    {
+      "id": 98,
+      "escola_id": 40,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10117",
+      "origem": "historico"
+    },
+    {
+      "id": 99,
+      "escola_id": 40,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10118",
+      "origem": "historico"
+    },
+    {
+      "id": 100,
+      "escola_id": 40,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10119",
+      "origem": "historico"
+    },
+    {
+      "id": 101,
+      "escola_id": 41,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10120",
+      "origem": "historico"
+    },
+    {
+      "id": 102,
+      "escola_id": 41,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10121",
+      "origem": "historico"
+    },
+    {
+      "id": 103,
+      "escola_id": 42,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10123",
+      "origem": "historico"
+    },
+    {
+      "id": 104,
+      "escola_id": 42,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10124",
+      "origem": "historico"
+    },
+    {
+      "id": 105,
+      "escola_id": 42,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10125",
+      "origem": "historico"
+    },
+    {
+      "id": 106,
+      "escola_id": 43,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10126",
+      "origem": "historico"
+    },
+    {
+      "id": 107,
+      "escola_id": 43,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10127",
+      "origem": "historico"
+    },
+    {
+      "id": 108,
+      "escola_id": 44,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10129",
+      "origem": "historico"
+    },
+    {
+      "id": 109,
+      "escola_id": 44,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10130",
+      "origem": "historico"
+    },
+    {
+      "id": 110,
+      "escola_id": 44,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10131",
+      "origem": "historico"
+    },
+    {
+      "id": 111,
+      "escola_id": 45,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10132",
+      "origem": "historico"
+    },
+    {
+      "id": 112,
+      "escola_id": 45,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10133",
+      "origem": "historico"
+    },
+    {
+      "id": 113,
+      "escola_id": 46,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10135",
+      "origem": "historico"
+    },
+    {
+      "id": 114,
+      "escola_id": 46,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10136",
+      "origem": "historico"
+    },
+    {
+      "id": 115,
+      "escola_id": 46,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10137",
+      "origem": "historico"
+    },
+    {
+      "id": 116,
+      "escola_id": 47,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10138",
+      "origem": "historico"
+    },
+    {
+      "id": 117,
+      "escola_id": 47,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10139",
+      "origem": "historico"
+    },
+    {
+      "id": 118,
+      "escola_id": 48,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10141",
+      "origem": "historico"
+    },
+    {
+      "id": 119,
+      "escola_id": 48,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10142",
+      "origem": "historico"
+    },
+    {
+      "id": 120,
+      "escola_id": 48,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10143",
+      "origem": "historico"
+    },
+    {
+      "id": 121,
+      "escola_id": 49,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10144",
+      "origem": "historico"
+    },
+    {
+      "id": 122,
+      "escola_id": 49,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10145",
+      "origem": "historico"
+    },
+    {
+      "id": 123,
+      "escola_id": 50,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10147",
+      "origem": "historico"
+    },
+    {
+      "id": 124,
+      "escola_id": 50,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10148",
+      "origem": "historico"
+    },
+    {
+      "id": 125,
+      "escola_id": 50,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10149",
+      "origem": "historico"
+    },
+    {
+      "id": 126,
+      "escola_id": 51,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10150",
+      "origem": "historico"
+    },
+    {
+      "id": 127,
+      "escola_id": 51,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10151",
+      "origem": "historico"
+    },
+    {
+      "id": 128,
+      "escola_id": 52,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10153",
+      "origem": "historico"
+    },
+    {
+      "id": 129,
+      "escola_id": 52,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10154",
+      "origem": "historico"
+    },
+    {
+      "id": 130,
+      "escola_id": 52,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10155",
+      "origem": "historico"
+    },
+    {
+      "id": 131,
+      "escola_id": 53,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10156",
+      "origem": "historico"
+    },
+    {
+      "id": 132,
+      "escola_id": 53,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10157",
+      "origem": "historico"
+    },
+    {
+      "id": 133,
+      "escola_id": 54,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10159",
+      "origem": "historico"
+    },
+    {
+      "id": 134,
+      "escola_id": 54,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10160",
+      "origem": "historico"
+    },
+    {
+      "id": 135,
+      "escola_id": 54,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10161",
+      "origem": "historico"
+    },
+    {
+      "id": 136,
+      "escola_id": 55,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10162",
+      "origem": "historico"
+    },
+    {
+      "id": 137,
+      "escola_id": 55,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10163",
+      "origem": "historico"
+    },
+    {
+      "id": 138,
+      "escola_id": 56,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10165",
+      "origem": "historico"
+    },
+    {
+      "id": 139,
+      "escola_id": 56,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10166",
+      "origem": "historico"
+    },
+    {
+      "id": 140,
+      "escola_id": 56,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10167",
+      "origem": "historico"
+    },
+    {
+      "id": 141,
+      "escola_id": 57,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10168",
+      "origem": "historico"
+    },
+    {
+      "id": 142,
+      "escola_id": 57,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10169",
+      "origem": "historico"
+    },
+    {
+      "id": 143,
+      "escola_id": 58,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10171",
+      "origem": "historico"
+    },
+    {
+      "id": 144,
+      "escola_id": 58,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10172",
+      "origem": "historico"
+    },
+    {
+      "id": 145,
+      "escola_id": 58,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10173",
+      "origem": "historico"
+    },
+    {
+      "id": 146,
+      "escola_id": 59,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10174",
+      "origem": "historico"
+    },
+    {
+      "id": 147,
+      "escola_id": 59,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10175",
+      "origem": "historico"
+    },
+    {
+      "id": 148,
+      "escola_id": 60,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10177",
+      "origem": "historico"
+    },
+    {
+      "id": 149,
+      "escola_id": 60,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10178",
+      "origem": "historico"
+    },
+    {
+      "id": 150,
+      "escola_id": 60,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10179",
+      "origem": "historico"
+    },
+    {
+      "id": 151,
+      "escola_id": 61,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10180",
+      "origem": "historico"
+    },
+    {
+      "id": 152,
+      "escola_id": 61,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10181",
+      "origem": "historico"
+    },
+    {
+      "id": 153,
+      "escola_id": 62,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10183",
+      "origem": "historico"
+    },
+    {
+      "id": 154,
+      "escola_id": 62,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10184",
+      "origem": "historico"
+    },
+    {
+      "id": 155,
+      "escola_id": 62,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10185",
+      "origem": "historico"
+    },
+    {
+      "id": 156,
+      "escola_id": 63,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10186",
+      "origem": "historico"
+    },
+    {
+      "id": 157,
+      "escola_id": 63,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10187",
+      "origem": "historico"
+    },
+    {
+      "id": 158,
+      "escola_id": 64,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10189",
+      "origem": "historico"
+    },
+    {
+      "id": 159,
+      "escola_id": 64,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10190",
+      "origem": "historico"
+    },
+    {
+      "id": 160,
+      "escola_id": 64,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10191",
+      "origem": "historico"
+    },
+    {
+      "id": 161,
+      "escola_id": 65,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10192",
+      "origem": "historico"
+    },
+    {
+      "id": 162,
+      "escola_id": 65,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10193",
+      "origem": "historico"
+    },
+    {
+      "id": 163,
+      "escola_id": 66,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10195",
+      "origem": "historico"
+    },
+    {
+      "id": 164,
+      "escola_id": 66,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10196",
+      "origem": "historico"
+    },
+    {
+      "id": 165,
+      "escola_id": 66,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10197",
+      "origem": "historico"
+    },
+    {
+      "id": 166,
+      "escola_id": 67,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10198",
+      "origem": "historico"
+    },
+    {
+      "id": 167,
+      "escola_id": 67,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10199",
+      "origem": "historico"
+    },
+    {
+      "id": 168,
+      "escola_id": 68,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10201",
+      "origem": "historico"
+    },
+    {
+      "id": 169,
+      "escola_id": 68,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10202",
+      "origem": "historico"
+    },
+    {
+      "id": 170,
+      "escola_id": 68,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10203",
+      "origem": "historico"
+    },
+    {
+      "id": 171,
+      "escola_id": 69,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10204",
+      "origem": "historico"
+    },
+    {
+      "id": 172,
+      "escola_id": 69,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10205",
+      "origem": "historico"
+    },
+    {
+      "id": 173,
+      "escola_id": 70,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10207",
+      "origem": "historico"
+    },
+    {
+      "id": 174,
+      "escola_id": 70,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10208",
+      "origem": "historico"
+    },
+    {
+      "id": 175,
+      "escola_id": 70,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10209",
+      "origem": "historico"
+    },
+    {
+      "id": 176,
+      "escola_id": 71,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10210",
+      "origem": "historico"
+    },
+    {
+      "id": 177,
+      "escola_id": 71,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10211",
+      "origem": "historico"
+    },
+    {
+      "id": 178,
+      "escola_id": 72,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10213",
+      "origem": "historico"
+    },
+    {
+      "id": 179,
+      "escola_id": 72,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10214",
+      "origem": "historico"
+    },
+    {
+      "id": 180,
+      "escola_id": 72,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10215",
+      "origem": "historico"
+    },
+    {
+      "id": 181,
+      "escola_id": 73,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10216",
+      "origem": "historico"
+    },
+    {
+      "id": 182,
+      "escola_id": 73,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10217",
+      "origem": "historico"
+    },
+    {
+      "id": 183,
+      "escola_id": 74,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10219",
+      "origem": "historico"
+    },
+    {
+      "id": 184,
+      "escola_id": 74,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10220",
+      "origem": "historico"
+    },
+    {
+      "id": 185,
+      "escola_id": 74,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10221",
+      "origem": "historico"
+    },
+    {
+      "id": 186,
+      "escola_id": 75,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10222",
+      "origem": "historico"
+    },
+    {
+      "id": 187,
+      "escola_id": 75,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10223",
+      "origem": "historico"
+    },
+    {
+      "id": 188,
+      "escola_id": 76,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10225",
+      "origem": "historico"
+    },
+    {
+      "id": 189,
+      "escola_id": 76,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10226",
+      "origem": "historico"
+    },
+    {
+      "id": 190,
+      "escola_id": 76,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10227",
+      "origem": "historico"
+    },
+    {
+      "id": 191,
+      "escola_id": 77,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10228",
+      "origem": "historico"
+    },
+    {
+      "id": 192,
+      "escola_id": 77,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10229",
+      "origem": "historico"
+    },
+    {
+      "id": 193,
+      "escola_id": 78,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10231",
+      "origem": "historico"
+    },
+    {
+      "id": 194,
+      "escola_id": 78,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10232",
+      "origem": "historico"
+    },
+    {
+      "id": 195,
+      "escola_id": 78,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10233",
+      "origem": "historico"
+    },
+    {
+      "id": 196,
+      "escola_id": 79,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10234",
+      "origem": "historico"
+    },
+    {
+      "id": 197,
+      "escola_id": 79,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10235",
+      "origem": "historico"
+    },
+    {
+      "id": 198,
+      "escola_id": 80,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10237",
+      "origem": "historico"
+    },
+    {
+      "id": 199,
+      "escola_id": 80,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10238",
+      "origem": "historico"
+    },
+    {
+      "id": 200,
+      "escola_id": 80,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10239",
+      "origem": "historico"
+    },
+    {
+      "id": 201,
+      "escola_id": 81,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10240",
+      "origem": "historico"
+    },
+    {
+      "id": 202,
+      "escola_id": 81,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10241",
+      "origem": "historico"
+    },
+    {
+      "id": 203,
+      "escola_id": 82,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10243",
+      "origem": "historico"
+    },
+    {
+      "id": 204,
+      "escola_id": 82,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10244",
+      "origem": "historico"
+    },
+    {
+      "id": 205,
+      "escola_id": 82,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10245",
+      "origem": "historico"
+    },
+    {
+      "id": 206,
+      "escola_id": 83,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10246",
+      "origem": "historico"
+    },
+    {
+      "id": 207,
+      "escola_id": 83,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10247",
+      "origem": "historico"
+    },
+    {
+      "id": 208,
+      "escola_id": 84,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10249",
+      "origem": "historico"
+    },
+    {
+      "id": 209,
+      "escola_id": 84,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10250",
+      "origem": "historico"
+    },
+    {
+      "id": 210,
+      "escola_id": 84,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10251",
+      "origem": "historico"
+    },
+    {
+      "id": 211,
+      "escola_id": 85,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10252",
+      "origem": "historico"
+    },
+    {
+      "id": 212,
+      "escola_id": 85,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10253",
+      "origem": "historico"
+    },
+    {
+      "id": 213,
+      "escola_id": 86,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10255",
+      "origem": "historico"
+    },
+    {
+      "id": 214,
+      "escola_id": 86,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10256",
+      "origem": "historico"
+    },
+    {
+      "id": 215,
+      "escola_id": 86,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10257",
+      "origem": "historico"
+    },
+    {
+      "id": 216,
+      "escola_id": 87,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10258",
+      "origem": "historico"
+    },
+    {
+      "id": 217,
+      "escola_id": 87,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10259",
+      "origem": "historico"
+    },
+    {
+      "id": 218,
+      "escola_id": 88,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10261",
+      "origem": "historico"
+    },
+    {
+      "id": 219,
+      "escola_id": 88,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10262",
+      "origem": "historico"
+    },
+    {
+      "id": 220,
+      "escola_id": 88,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10263",
+      "origem": "historico"
+    },
+    {
+      "id": 221,
+      "escola_id": 89,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10264",
+      "origem": "historico"
+    },
+    {
+      "id": 222,
+      "escola_id": 89,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10265",
+      "origem": "historico"
+    },
+    {
+      "id": 223,
+      "escola_id": 90,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10267",
+      "origem": "historico"
+    },
+    {
+      "id": 224,
+      "escola_id": 90,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10268",
+      "origem": "historico"
+    },
+    {
+      "id": 225,
+      "escola_id": 90,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10269",
+      "origem": "historico"
+    },
+    {
+      "id": 226,
+      "escola_id": 91,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10270",
+      "origem": "historico"
+    },
+    {
+      "id": 227,
+      "escola_id": 91,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10271",
+      "origem": "historico"
+    },
+    {
+      "id": 228,
+      "escola_id": 92,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10273",
+      "origem": "historico"
+    },
+    {
+      "id": 229,
+      "escola_id": 92,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10274",
+      "origem": "historico"
+    },
+    {
+      "id": 230,
+      "escola_id": 92,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10275",
+      "origem": "historico"
+    },
+    {
+      "id": 231,
+      "escola_id": 93,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10276",
+      "origem": "historico"
+    },
+    {
+      "id": 232,
+      "escola_id": 93,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10277",
+      "origem": "historico"
+    },
+    {
+      "id": 233,
+      "escola_id": 94,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10279",
+      "origem": "historico"
+    },
+    {
+      "id": 234,
+      "escola_id": 94,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10280",
+      "origem": "historico"
+    },
+    {
+      "id": 235,
+      "escola_id": 94,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10281",
+      "origem": "historico"
+    },
+    {
+      "id": 236,
+      "escola_id": 95,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10282",
+      "origem": "historico"
+    },
+    {
+      "id": 237,
+      "escola_id": 95,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10283",
+      "origem": "historico"
+    },
+    {
+      "id": 238,
+      "escola_id": 96,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10285",
+      "origem": "historico"
+    },
+    {
+      "id": 239,
+      "escola_id": 96,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10286",
+      "origem": "historico"
+    },
+    {
+      "id": 240,
+      "escola_id": 96,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10287",
+      "origem": "historico"
+    },
+    {
+      "id": 241,
+      "escola_id": 97,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10288",
+      "origem": "historico"
+    },
+    {
+      "id": 242,
+      "escola_id": 97,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10289",
+      "origem": "historico"
+    },
+    {
+      "id": 243,
+      "escola_id": 98,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10291",
+      "origem": "historico"
+    },
+    {
+      "id": 244,
+      "escola_id": 98,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10292",
+      "origem": "historico"
+    },
+    {
+      "id": 245,
+      "escola_id": 98,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10293",
+      "origem": "historico"
+    },
+    {
+      "id": 246,
+      "escola_id": 99,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10294",
+      "origem": "historico"
+    },
+    {
+      "id": 247,
+      "escola_id": 99,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10295",
+      "origem": "historico"
+    },
+    {
+      "id": 248,
+      "escola_id": 100,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10297",
+      "origem": "historico"
+    },
+    {
+      "id": 249,
+      "escola_id": 100,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10298",
+      "origem": "historico"
+    },
+    {
+      "id": 250,
+      "escola_id": 100,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10299",
+      "origem": "historico"
+    },
+    {
+      "id": 251,
+      "escola_id": 101,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10300",
+      "origem": "historico"
+    },
+    {
+      "id": 252,
+      "escola_id": 101,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10301",
+      "origem": "historico"
+    },
+    {
+      "id": 253,
+      "escola_id": 102,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10303",
+      "origem": "historico"
+    },
+    {
+      "id": 254,
+      "escola_id": 102,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10304",
+      "origem": "historico"
+    },
+    {
+      "id": 255,
+      "escola_id": 102,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10305",
+      "origem": "historico"
+    },
+    {
+      "id": 256,
+      "escola_id": 103,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10306",
+      "origem": "historico"
+    },
+    {
+      "id": 257,
+      "escola_id": 103,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10307",
+      "origem": "historico"
+    },
+    {
+      "id": 258,
+      "escola_id": 104,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10309",
+      "origem": "historico"
+    },
+    {
+      "id": 259,
+      "escola_id": 104,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10310",
+      "origem": "historico"
+    },
+    {
+      "id": 260,
+      "escola_id": 104,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10311",
+      "origem": "historico"
+    },
+    {
+      "id": 261,
+      "escola_id": 105,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10312",
+      "origem": "historico"
+    },
+    {
+      "id": 262,
+      "escola_id": 105,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10313",
+      "origem": "historico"
+    },
+    {
+      "id": 263,
+      "escola_id": 106,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10315",
+      "origem": "historico"
+    },
+    {
+      "id": 264,
+      "escola_id": 106,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10316",
+      "origem": "historico"
+    },
+    {
+      "id": 265,
+      "escola_id": 106,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10317",
+      "origem": "historico"
+    },
+    {
+      "id": 266,
+      "escola_id": 107,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10318",
+      "origem": "historico"
+    },
+    {
+      "id": 267,
+      "escola_id": 107,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10319",
+      "origem": "historico"
+    },
+    {
+      "id": 268,
+      "escola_id": 108,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10321",
+      "origem": "historico"
+    },
+    {
+      "id": 269,
+      "escola_id": 108,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10322",
+      "origem": "historico"
+    },
+    {
+      "id": 270,
+      "escola_id": 108,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10323",
+      "origem": "historico"
+    },
+    {
+      "id": 271,
+      "escola_id": 109,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10324",
+      "origem": "historico"
+    },
+    {
+      "id": 272,
+      "escola_id": 109,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10325",
+      "origem": "historico"
+    },
+    {
+      "id": 273,
+      "escola_id": 110,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10327",
+      "origem": "historico"
+    },
+    {
+      "id": 274,
+      "escola_id": 110,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10328",
+      "origem": "historico"
+    },
+    {
+      "id": 275,
+      "escola_id": 110,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10329",
+      "origem": "historico"
+    },
+    {
+      "id": 276,
+      "escola_id": 111,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10330",
+      "origem": "historico"
+    },
+    {
+      "id": 277,
+      "escola_id": 111,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10331",
+      "origem": "historico"
+    },
+    {
+      "id": 278,
+      "escola_id": 112,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10333",
+      "origem": "historico"
+    },
+    {
+      "id": 279,
+      "escola_id": 112,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10334",
+      "origem": "historico"
+    },
+    {
+      "id": 280,
+      "escola_id": 112,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10335",
+      "origem": "historico"
+    },
+    {
+      "id": 281,
+      "escola_id": 113,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10336",
+      "origem": "historico"
+    },
+    {
+      "id": 282,
+      "escola_id": 113,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10337",
+      "origem": "historico"
+    },
+    {
+      "id": 283,
+      "escola_id": 114,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10339",
+      "origem": "historico"
+    },
+    {
+      "id": 284,
+      "escola_id": 114,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10340",
+      "origem": "historico"
+    },
+    {
+      "id": 285,
+      "escola_id": 114,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10341",
+      "origem": "historico"
+    },
+    {
+      "id": 286,
+      "escola_id": 115,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10342",
+      "origem": "historico"
+    },
+    {
+      "id": 287,
+      "escola_id": 115,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10343",
+      "origem": "historico"
+    },
+    {
+      "id": 288,
+      "escola_id": 116,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10345",
+      "origem": "historico"
+    },
+    {
+      "id": 289,
+      "escola_id": 116,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10346",
+      "origem": "historico"
+    },
+    {
+      "id": 290,
+      "escola_id": 116,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10347",
+      "origem": "historico"
+    },
+    {
+      "id": 291,
+      "escola_id": 117,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10348",
+      "origem": "historico"
+    },
+    {
+      "id": 292,
+      "escola_id": 117,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10349",
+      "origem": "historico"
+    },
+    {
+      "id": 293,
+      "escola_id": 118,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10351",
+      "origem": "historico"
+    },
+    {
+      "id": 294,
+      "escola_id": 118,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10352",
+      "origem": "historico"
+    },
+    {
+      "id": 295,
+      "escola_id": 118,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10353",
+      "origem": "historico"
+    },
+    {
+      "id": 296,
+      "escola_id": 119,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10354",
+      "origem": "historico"
+    },
+    {
+      "id": 297,
+      "escola_id": 119,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10355",
+      "origem": "historico"
+    },
+    {
+      "id": 298,
+      "escola_id": 120,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10357",
+      "origem": "historico"
+    },
+    {
+      "id": 299,
+      "escola_id": 120,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10358",
+      "origem": "historico"
+    },
+    {
+      "id": 300,
+      "escola_id": 120,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10359",
+      "origem": "historico"
+    },
+    {
+      "id": 301,
+      "escola_id": 121,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10360",
+      "origem": "historico"
+    },
+    {
+      "id": 302,
+      "escola_id": 121,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10361",
+      "origem": "historico"
+    },
+    {
+      "id": 303,
+      "escola_id": 122,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10363",
+      "origem": "historico"
+    },
+    {
+      "id": 304,
+      "escola_id": 122,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10364",
+      "origem": "historico"
+    },
+    {
+      "id": 305,
+      "escola_id": 122,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10365",
+      "origem": "historico"
+    },
+    {
+      "id": 306,
+      "escola_id": 123,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10366",
+      "origem": "historico"
+    },
+    {
+      "id": 307,
+      "escola_id": 123,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10367",
+      "origem": "historico"
+    },
+    {
+      "id": 308,
+      "escola_id": 124,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10369",
+      "origem": "historico"
+    },
+    {
+      "id": 309,
+      "escola_id": 124,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10370",
+      "origem": "historico"
+    },
+    {
+      "id": 310,
+      "escola_id": 124,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10371",
+      "origem": "historico"
+    },
+    {
+      "id": 311,
+      "escola_id": 125,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10372",
+      "origem": "historico"
+    },
+    {
+      "id": 312,
+      "escola_id": 125,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10373",
+      "origem": "historico"
+    },
+    {
+      "id": 313,
+      "escola_id": 126,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10375",
+      "origem": "historico"
+    },
+    {
+      "id": 314,
+      "escola_id": 126,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10376",
+      "origem": "historico"
+    },
+    {
+      "id": 315,
+      "escola_id": 126,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10377",
+      "origem": "historico"
+    },
+    {
+      "id": 316,
+      "escola_id": 127,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10378",
+      "origem": "historico"
+    },
+    {
+      "id": 317,
+      "escola_id": 127,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10379",
+      "origem": "historico"
+    },
+    {
+      "id": 318,
+      "escola_id": 128,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10381",
+      "origem": "historico"
+    },
+    {
+      "id": 319,
+      "escola_id": 128,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10382",
+      "origem": "historico"
+    },
+    {
+      "id": 320,
+      "escola_id": 128,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10383",
+      "origem": "historico"
+    },
+    {
+      "id": 321,
+      "escola_id": 129,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10384",
+      "origem": "historico"
+    },
+    {
+      "id": 322,
+      "escola_id": 129,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10385",
+      "origem": "historico"
+    },
+    {
+      "id": 323,
+      "escola_id": 130,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10387",
+      "origem": "historico"
+    },
+    {
+      "id": 324,
+      "escola_id": 130,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10388",
+      "origem": "historico"
+    },
+    {
+      "id": 325,
+      "escola_id": 130,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10389",
+      "origem": "historico"
+    },
+    {
+      "id": 326,
+      "escola_id": 131,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10390",
+      "origem": "historico"
+    },
+    {
+      "id": 327,
+      "escola_id": 131,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10391",
+      "origem": "historico"
+    },
+    {
+      "id": 328,
+      "escola_id": 132,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10393",
+      "origem": "historico"
+    },
+    {
+      "id": 329,
+      "escola_id": 132,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10394",
+      "origem": "historico"
+    },
+    {
+      "id": 330,
+      "escola_id": 132,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10395",
+      "origem": "historico"
+    },
+    {
+      "id": 331,
+      "escola_id": 133,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10396",
+      "origem": "historico"
+    },
+    {
+      "id": 332,
+      "escola_id": 133,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10397",
+      "origem": "historico"
+    },
+    {
+      "id": 333,
+      "escola_id": 134,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10399",
+      "origem": "historico"
+    },
+    {
+      "id": 334,
+      "escola_id": 134,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10400",
+      "origem": "historico"
+    },
+    {
+      "id": 335,
+      "escola_id": 134,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10401",
+      "origem": "historico"
+    },
+    {
+      "id": 336,
+      "escola_id": 135,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10402",
+      "origem": "historico"
+    },
+    {
+      "id": 337,
+      "escola_id": 135,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10403",
+      "origem": "historico"
+    },
+    {
+      "id": 338,
+      "escola_id": 136,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10405",
+      "origem": "historico"
+    },
+    {
+      "id": 339,
+      "escola_id": 136,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10406",
+      "origem": "historico"
+    },
+    {
+      "id": 340,
+      "escola_id": 136,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10407",
+      "origem": "historico"
+    },
+    {
+      "id": 341,
+      "escola_id": 137,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10408",
+      "origem": "historico"
+    },
+    {
+      "id": 342,
+      "escola_id": 137,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10409",
+      "origem": "historico"
+    },
+    {
+      "id": 343,
+      "escola_id": 138,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10411",
+      "origem": "historico"
+    },
+    {
+      "id": 344,
+      "escola_id": 138,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10412",
+      "origem": "historico"
+    },
+    {
+      "id": 345,
+      "escola_id": 138,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10413",
+      "origem": "historico"
+    },
+    {
+      "id": 346,
+      "escola_id": 139,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10414",
+      "origem": "historico"
+    },
+    {
+      "id": 347,
+      "escola_id": 139,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10415",
+      "origem": "historico"
+    },
+    {
+      "id": 348,
+      "escola_id": 140,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10417",
+      "origem": "historico"
+    },
+    {
+      "id": 349,
+      "escola_id": 140,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10418",
+      "origem": "historico"
+    },
+    {
+      "id": 350,
+      "escola_id": 140,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10419",
+      "origem": "historico"
+    },
+    {
+      "id": 351,
+      "escola_id": 141,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10420",
+      "origem": "historico"
+    },
+    {
+      "id": 352,
+      "escola_id": 141,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10421",
+      "origem": "historico"
+    },
+    {
+      "id": 353,
+      "escola_id": 142,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10423",
+      "origem": "historico"
+    },
+    {
+      "id": 354,
+      "escola_id": 142,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10424",
+      "origem": "historico"
+    },
+    {
+      "id": 355,
+      "escola_id": 142,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10425",
+      "origem": "historico"
+    },
+    {
+      "id": 356,
+      "escola_id": 143,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10426",
+      "origem": "historico"
+    },
+    {
+      "id": 357,
+      "escola_id": 143,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10427",
+      "origem": "historico"
+    },
+    {
+      "id": 358,
+      "escola_id": 144,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10429",
+      "origem": "historico"
+    },
+    {
+      "id": 359,
+      "escola_id": 144,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10430",
+      "origem": "historico"
+    },
+    {
+      "id": 360,
+      "escola_id": 144,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10431",
+      "origem": "historico"
+    },
+    {
+      "id": 361,
+      "escola_id": 145,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10432",
+      "origem": "historico"
+    },
+    {
+      "id": 362,
+      "escola_id": 145,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10433",
+      "origem": "historico"
+    },
+    {
+      "id": 363,
+      "escola_id": 146,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10435",
+      "origem": "historico"
+    },
+    {
+      "id": 364,
+      "escola_id": 146,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10436",
+      "origem": "historico"
+    },
+    {
+      "id": 365,
+      "escola_id": 146,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10437",
+      "origem": "historico"
+    },
+    {
+      "id": 366,
+      "escola_id": 147,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10438",
+      "origem": "historico"
+    },
+    {
+      "id": 367,
+      "escola_id": 147,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10439",
+      "origem": "historico"
+    },
+    {
+      "id": 368,
+      "escola_id": 148,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10441",
+      "origem": "historico"
+    },
+    {
+      "id": 369,
+      "escola_id": 148,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10442",
+      "origem": "historico"
+    },
+    {
+      "id": 370,
+      "escola_id": 148,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10443",
+      "origem": "historico"
+    },
+    {
+      "id": 371,
+      "escola_id": 149,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10444",
+      "origem": "historico"
+    },
+    {
+      "id": 372,
+      "escola_id": 149,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10445",
+      "origem": "historico"
+    },
+    {
+      "id": 373,
+      "escola_id": 150,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10447",
+      "origem": "historico"
+    },
+    {
+      "id": 374,
+      "escola_id": 150,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10448",
+      "origem": "historico"
+    },
+    {
+      "id": 375,
+      "escola_id": 150,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10449",
+      "origem": "historico"
+    },
+    {
+      "id": 376,
+      "escola_id": 151,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10450",
+      "origem": "historico"
+    },
+    {
+      "id": 377,
+      "escola_id": 151,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10451",
+      "origem": "historico"
+    },
+    {
+      "id": 378,
+      "escola_id": 152,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10453",
+      "origem": "historico"
+    },
+    {
+      "id": 379,
+      "escola_id": 152,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10454",
+      "origem": "historico"
+    },
+    {
+      "id": 380,
+      "escola_id": 152,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10455",
+      "origem": "historico"
+    },
+    {
+      "id": 381,
+      "escola_id": 153,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10456",
+      "origem": "historico"
+    },
+    {
+      "id": 382,
+      "escola_id": 153,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10457",
+      "origem": "historico"
+    },
+    {
+      "id": 383,
+      "escola_id": 154,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10459",
+      "origem": "historico"
+    },
+    {
+      "id": 384,
+      "escola_id": 154,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10460",
+      "origem": "historico"
+    },
+    {
+      "id": 385,
+      "escola_id": 154,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10461",
+      "origem": "historico"
+    },
+    {
+      "id": 386,
+      "escola_id": 155,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10462",
+      "origem": "historico"
+    },
+    {
+      "id": 387,
+      "escola_id": 155,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10463",
+      "origem": "historico"
+    },
+    {
+      "id": 388,
+      "escola_id": 156,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10465",
+      "origem": "historico"
+    },
+    {
+      "id": 389,
+      "escola_id": 156,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10466",
+      "origem": "historico"
+    },
+    {
+      "id": 390,
+      "escola_id": 156,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10467",
+      "origem": "historico"
+    },
+    {
+      "id": 391,
+      "escola_id": 157,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10468",
+      "origem": "historico"
+    },
+    {
+      "id": 392,
+      "escola_id": 157,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10469",
+      "origem": "historico"
+    },
+    {
+      "id": 393,
+      "escola_id": 158,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10471",
+      "origem": "historico"
+    },
+    {
+      "id": 394,
+      "escola_id": 158,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10472",
+      "origem": "historico"
+    },
+    {
+      "id": 395,
+      "escola_id": 158,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10473",
+      "origem": "historico"
+    },
+    {
+      "id": 396,
+      "escola_id": 159,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10474",
+      "origem": "historico"
+    },
+    {
+      "id": 397,
+      "escola_id": 159,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10475",
+      "origem": "historico"
+    },
+    {
+      "id": 398,
+      "escola_id": 160,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10477",
+      "origem": "historico"
+    },
+    {
+      "id": 399,
+      "escola_id": 160,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10478",
+      "origem": "historico"
+    },
+    {
+      "id": 400,
+      "escola_id": 160,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10479",
+      "origem": "historico"
+    },
+    {
+      "id": 401,
+      "escola_id": 161,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10480",
+      "origem": "historico"
+    },
+    {
+      "id": 402,
+      "escola_id": 161,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10481",
+      "origem": "historico"
+    },
+    {
+      "id": 403,
+      "escola_id": 162,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10483",
+      "origem": "historico"
+    },
+    {
+      "id": 404,
+      "escola_id": 162,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10484",
+      "origem": "historico"
+    },
+    {
+      "id": 405,
+      "escola_id": 162,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10485",
+      "origem": "historico"
+    },
+    {
+      "id": 406,
+      "escola_id": 163,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10486",
+      "origem": "historico"
+    },
+    {
+      "id": 407,
+      "escola_id": 163,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10487",
+      "origem": "historico"
+    },
+    {
+      "id": 408,
+      "escola_id": 164,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10489",
+      "origem": "historico"
+    },
+    {
+      "id": 409,
+      "escola_id": 164,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10490",
+      "origem": "historico"
+    },
+    {
+      "id": 410,
+      "escola_id": 164,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10491",
+      "origem": "historico"
+    },
+    {
+      "id": 411,
+      "escola_id": 165,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10492",
+      "origem": "historico"
+    },
+    {
+      "id": 412,
+      "escola_id": 165,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10493",
+      "origem": "historico"
+    },
+    {
+      "id": 413,
+      "escola_id": 166,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10495",
+      "origem": "historico"
+    },
+    {
+      "id": 414,
+      "escola_id": 166,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10496",
+      "origem": "historico"
+    },
+    {
+      "id": 415,
+      "escola_id": 166,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10497",
+      "origem": "historico"
+    },
+    {
+      "id": 416,
+      "escola_id": 167,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10498",
+      "origem": "historico"
+    },
+    {
+      "id": 417,
+      "escola_id": 167,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10499",
+      "origem": "historico"
+    },
+    {
+      "id": 418,
+      "escola_id": 168,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10501",
+      "origem": "historico"
+    },
+    {
+      "id": 419,
+      "escola_id": 168,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10502",
+      "origem": "historico"
+    },
+    {
+      "id": 420,
+      "escola_id": 168,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10503",
+      "origem": "historico"
+    },
+    {
+      "id": 421,
+      "escola_id": 169,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10504",
+      "origem": "historico"
+    },
+    {
+      "id": 422,
+      "escola_id": 169,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10505",
+      "origem": "historico"
+    },
+    {
+      "id": 423,
+      "escola_id": 170,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10507",
+      "origem": "historico"
+    },
+    {
+      "id": 424,
+      "escola_id": 170,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10508",
+      "origem": "historico"
+    },
+    {
+      "id": 425,
+      "escola_id": 170,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10509",
+      "origem": "historico"
+    },
+    {
+      "id": 426,
+      "escola_id": 171,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10510",
+      "origem": "historico"
+    },
+    {
+      "id": 427,
+      "escola_id": 171,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10511",
+      "origem": "historico"
+    },
+    {
+      "id": 428,
+      "escola_id": 172,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10513",
+      "origem": "historico"
+    },
+    {
+      "id": 429,
+      "escola_id": 172,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10514",
+      "origem": "historico"
+    },
+    {
+      "id": 430,
+      "escola_id": 172,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10515",
+      "origem": "historico"
+    },
+    {
+      "id": 431,
+      "escola_id": 173,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10516",
+      "origem": "historico"
+    },
+    {
+      "id": 432,
+      "escola_id": 173,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10517",
+      "origem": "historico"
+    },
+    {
+      "id": 433,
+      "escola_id": 174,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10519",
+      "origem": "historico"
+    },
+    {
+      "id": 434,
+      "escola_id": 174,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10520",
+      "origem": "historico"
+    },
+    {
+      "id": 435,
+      "escola_id": 174,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10521",
+      "origem": "historico"
+    },
+    {
+      "id": 436,
+      "escola_id": 175,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10522",
+      "origem": "historico"
+    },
+    {
+      "id": 437,
+      "escola_id": 175,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10523",
+      "origem": "historico"
+    },
+    {
+      "id": 438,
+      "escola_id": 176,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10525",
+      "origem": "historico"
+    },
+    {
+      "id": 439,
+      "escola_id": 176,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10526",
+      "origem": "historico"
+    },
+    {
+      "id": 440,
+      "escola_id": 176,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10527",
+      "origem": "historico"
+    },
+    {
+      "id": 441,
+      "escola_id": 177,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10528",
+      "origem": "historico"
+    },
+    {
+      "id": 442,
+      "escola_id": 177,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10529",
+      "origem": "historico"
+    },
+    {
+      "id": 443,
+      "escola_id": 178,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10531",
+      "origem": "historico"
+    },
+    {
+      "id": 444,
+      "escola_id": 178,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10532",
+      "origem": "historico"
+    },
+    {
+      "id": 445,
+      "escola_id": 178,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10533",
+      "origem": "historico"
+    },
+    {
+      "id": 446,
+      "escola_id": 179,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10534",
+      "origem": "historico"
+    },
+    {
+      "id": 447,
+      "escola_id": 179,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10535",
+      "origem": "historico"
+    },
+    {
+      "id": 448,
+      "escola_id": 180,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10537",
+      "origem": "historico"
+    },
+    {
+      "id": 449,
+      "escola_id": 180,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10538",
+      "origem": "historico"
+    },
+    {
+      "id": 450,
+      "escola_id": 180,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10539",
+      "origem": "historico"
+    },
+    {
+      "id": 451,
+      "escola_id": 181,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10540",
+      "origem": "historico"
+    },
+    {
+      "id": 452,
+      "escola_id": 181,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10541",
+      "origem": "historico"
+    },
+    {
+      "id": 453,
+      "escola_id": 182,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10543",
+      "origem": "historico"
+    },
+    {
+      "id": 454,
+      "escola_id": 182,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10544",
+      "origem": "historico"
+    },
+    {
+      "id": 455,
+      "escola_id": 182,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10545",
+      "origem": "historico"
+    },
+    {
+      "id": 456,
+      "escola_id": 183,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10546",
+      "origem": "historico"
+    },
+    {
+      "id": 457,
+      "escola_id": 183,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10547",
+      "origem": "historico"
+    },
+    {
+      "id": 458,
+      "escola_id": 184,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10549",
+      "origem": "historico"
+    },
+    {
+      "id": 459,
+      "escola_id": 184,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10550",
+      "origem": "historico"
+    },
+    {
+      "id": 460,
+      "escola_id": 184,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10551",
+      "origem": "historico"
+    },
+    {
+      "id": 461,
+      "escola_id": 185,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10552",
+      "origem": "historico"
+    },
+    {
+      "id": 462,
+      "escola_id": 185,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10553",
+      "origem": "historico"
+    },
+    {
+      "id": 463,
+      "escola_id": 186,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10555",
+      "origem": "historico"
+    },
+    {
+      "id": 464,
+      "escola_id": 186,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10556",
+      "origem": "historico"
+    },
+    {
+      "id": 465,
+      "escola_id": 186,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10557",
+      "origem": "historico"
+    },
+    {
+      "id": 466,
+      "escola_id": 187,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10558",
+      "origem": "historico"
+    },
+    {
+      "id": 467,
+      "escola_id": 187,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10559",
+      "origem": "historico"
+    },
+    {
+      "id": 468,
+      "escola_id": 188,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10561",
+      "origem": "historico"
+    },
+    {
+      "id": 469,
+      "escola_id": 188,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10562",
+      "origem": "historico"
+    },
+    {
+      "id": 470,
+      "escola_id": 188,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10563",
+      "origem": "historico"
+    },
+    {
+      "id": 471,
+      "escola_id": 189,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10564",
+      "origem": "historico"
+    },
+    {
+      "id": 472,
+      "escola_id": 189,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10565",
+      "origem": "historico"
+    },
+    {
+      "id": 473,
+      "escola_id": 190,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10567",
+      "origem": "historico"
+    },
+    {
+      "id": 474,
+      "escola_id": 190,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10568",
+      "origem": "historico"
+    },
+    {
+      "id": 475,
+      "escola_id": 190,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10569",
+      "origem": "historico"
+    },
+    {
+      "id": 476,
+      "escola_id": 191,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10570",
+      "origem": "historico"
+    },
+    {
+      "id": 477,
+      "escola_id": 191,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10571",
+      "origem": "historico"
+    },
+    {
+      "id": 478,
+      "escola_id": 192,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10573",
+      "origem": "historico"
+    },
+    {
+      "id": 479,
+      "escola_id": 192,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10574",
+      "origem": "historico"
+    },
+    {
+      "id": 480,
+      "escola_id": 192,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10575",
+      "origem": "historico"
+    },
+    {
+      "id": 481,
+      "escola_id": 193,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10576",
+      "origem": "historico"
+    },
+    {
+      "id": 482,
+      "escola_id": 193,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10577",
+      "origem": "historico"
+    },
+    {
+      "id": 483,
+      "escola_id": 194,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10579",
+      "origem": "historico"
+    },
+    {
+      "id": 484,
+      "escola_id": 194,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10580",
+      "origem": "historico"
+    },
+    {
+      "id": 485,
+      "escola_id": 194,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10581",
+      "origem": "historico"
+    },
+    {
+      "id": 486,
+      "escola_id": 195,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10582",
+      "origem": "historico"
+    },
+    {
+      "id": 487,
+      "escola_id": 195,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10583",
+      "origem": "historico"
+    },
+    {
+      "id": 488,
+      "escola_id": 196,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10585",
+      "origem": "historico"
+    },
+    {
+      "id": 489,
+      "escola_id": 196,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10586",
+      "origem": "historico"
+    },
+    {
+      "id": 490,
+      "escola_id": 196,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10587",
+      "origem": "historico"
+    },
+    {
+      "id": 491,
+      "escola_id": 197,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10588",
+      "origem": "historico"
+    },
+    {
+      "id": 492,
+      "escola_id": 197,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10589",
+      "origem": "historico"
+    },
+    {
+      "id": 493,
+      "escola_id": 198,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10591",
+      "origem": "historico"
+    },
+    {
+      "id": 494,
+      "escola_id": 198,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10592",
+      "origem": "historico"
+    },
+    {
+      "id": 495,
+      "escola_id": 198,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10593",
+      "origem": "historico"
+    },
+    {
+      "id": 496,
+      "escola_id": 199,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10594",
+      "origem": "historico"
+    },
+    {
+      "id": 497,
+      "escola_id": 199,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10595",
+      "origem": "historico"
+    },
+    {
+      "id": 498,
+      "escola_id": 200,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10597",
+      "origem": "historico"
+    },
+    {
+      "id": 499,
+      "escola_id": 200,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10598",
+      "origem": "historico"
+    },
+    {
+      "id": 500,
+      "escola_id": 200,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10599",
+      "origem": "historico"
+    },
+    {
+      "id": 501,
+      "escola_id": 201,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10600",
+      "origem": "historico"
+    },
+    {
+      "id": 502,
+      "escola_id": 201,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10601",
+      "origem": "historico"
+    },
+    {
+      "id": 503,
+      "escola_id": 202,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10603",
+      "origem": "historico"
+    },
+    {
+      "id": 504,
+      "escola_id": 202,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10604",
+      "origem": "historico"
+    },
+    {
+      "id": 505,
+      "escola_id": 202,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10605",
+      "origem": "historico"
+    },
+    {
+      "id": 506,
+      "escola_id": 203,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10606",
+      "origem": "historico"
+    },
+    {
+      "id": 507,
+      "escola_id": 203,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10607",
+      "origem": "historico"
+    },
+    {
+      "id": 508,
+      "escola_id": 204,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10609",
+      "origem": "historico"
+    },
+    {
+      "id": 509,
+      "escola_id": 204,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10610",
+      "origem": "historico"
+    },
+    {
+      "id": 510,
+      "escola_id": 204,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10611",
+      "origem": "historico"
+    },
+    {
+      "id": 511,
+      "escola_id": 205,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10612",
+      "origem": "historico"
+    },
+    {
+      "id": 512,
+      "escola_id": 205,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10613",
+      "origem": "historico"
+    },
+    {
+      "id": 513,
+      "escola_id": 206,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10615",
+      "origem": "historico"
+    },
+    {
+      "id": 514,
+      "escola_id": 206,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10616",
+      "origem": "historico"
+    },
+    {
+      "id": 515,
+      "escola_id": 206,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10617",
+      "origem": "historico"
+    },
+    {
+      "id": 516,
+      "escola_id": 207,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10618",
+      "origem": "historico"
+    },
+    {
+      "id": 517,
+      "escola_id": 207,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10619",
+      "origem": "historico"
+    },
+    {
+      "id": 518,
+      "escola_id": 208,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10621",
+      "origem": "historico"
+    },
+    {
+      "id": 519,
+      "escola_id": 208,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10622",
+      "origem": "historico"
+    },
+    {
+      "id": 520,
+      "escola_id": 208,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10623",
+      "origem": "historico"
+    },
+    {
+      "id": 521,
+      "escola_id": 209,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10624",
+      "origem": "historico"
+    },
+    {
+      "id": 522,
+      "escola_id": 209,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10625",
+      "origem": "historico"
+    },
+    {
+      "id": 523,
+      "escola_id": 210,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10627",
+      "origem": "historico"
+    },
+    {
+      "id": 524,
+      "escola_id": 210,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10628",
+      "origem": "historico"
+    },
+    {
+      "id": 525,
+      "escola_id": 210,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10629",
+      "origem": "historico"
+    },
+    {
+      "id": 526,
+      "escola_id": 211,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10630",
+      "origem": "historico"
+    },
+    {
+      "id": 527,
+      "escola_id": 211,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10631",
+      "origem": "historico"
+    },
+    {
+      "id": 528,
+      "escola_id": 212,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10633",
+      "origem": "historico"
+    },
+    {
+      "id": 529,
+      "escola_id": 212,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10634",
+      "origem": "historico"
+    },
+    {
+      "id": 530,
+      "escola_id": 212,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10635",
+      "origem": "historico"
+    },
+    {
+      "id": 531,
+      "escola_id": 213,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10636",
+      "origem": "historico"
+    },
+    {
+      "id": 532,
+      "escola_id": 213,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10637",
+      "origem": "historico"
+    },
+    {
+      "id": 533,
+      "escola_id": 214,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10639",
+      "origem": "historico"
+    },
+    {
+      "id": 534,
+      "escola_id": 214,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10640",
+      "origem": "historico"
+    },
+    {
+      "id": 535,
+      "escola_id": 214,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10641",
+      "origem": "historico"
+    },
+    {
+      "id": 536,
+      "escola_id": 215,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10642",
+      "origem": "historico"
+    },
+    {
+      "id": 537,
+      "escola_id": 215,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10643",
+      "origem": "historico"
+    },
+    {
+      "id": 538,
+      "escola_id": 216,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10645",
+      "origem": "historico"
+    },
+    {
+      "id": 539,
+      "escola_id": 216,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10646",
+      "origem": "historico"
+    },
+    {
+      "id": 540,
+      "escola_id": 216,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10647",
+      "origem": "historico"
+    },
+    {
+      "id": 541,
+      "escola_id": 217,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10648",
+      "origem": "historico"
+    },
+    {
+      "id": 542,
+      "escola_id": 217,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10649",
+      "origem": "historico"
+    },
+    {
+      "id": 543,
+      "escola_id": 218,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10651",
+      "origem": "historico"
+    },
+    {
+      "id": 544,
+      "escola_id": 218,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10652",
+      "origem": "historico"
+    },
+    {
+      "id": 545,
+      "escola_id": 218,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10653",
+      "origem": "historico"
+    },
+    {
+      "id": 546,
+      "escola_id": 219,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10654",
+      "origem": "historico"
+    },
+    {
+      "id": 547,
+      "escola_id": 219,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10655",
+      "origem": "historico"
+    },
+    {
+      "id": 548,
+      "escola_id": 220,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10657",
+      "origem": "historico"
+    },
+    {
+      "id": 549,
+      "escola_id": 220,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10658",
+      "origem": "historico"
+    },
+    {
+      "id": 550,
+      "escola_id": 220,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 12,
+      "nf": "10659",
+      "origem": "historico"
+    },
+    {
+      "id": 551,
+      "escola_id": 221,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10660",
+      "origem": "historico"
+    },
+    {
+      "id": 552,
+      "escola_id": 221,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10661",
+      "origem": "historico"
+    },
+    {
+      "id": 553,
+      "escola_id": 222,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10663",
+      "origem": "historico"
+    },
+    {
+      "id": 554,
+      "escola_id": 222,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10664",
+      "origem": "historico"
+    },
+    {
+      "id": 555,
+      "escola_id": 222,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 12,
+      "nf": "10665",
+      "origem": "historico"
+    },
+    {
+      "id": 556,
+      "escola_id": 223,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10666",
+      "origem": "historico"
+    },
+    {
+      "id": 557,
+      "escola_id": 223,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10667",
+      "origem": "historico"
+    },
+    {
+      "id": 558,
+      "escola_id": 224,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10669",
+      "origem": "historico"
+    },
+    {
+      "id": 559,
+      "escola_id": 224,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10670",
+      "origem": "historico"
+    },
+    {
+      "id": 560,
+      "escola_id": 224,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 12,
+      "nf": "10671",
+      "origem": "historico"
+    },
+    {
+      "id": 561,
+      "escola_id": 225,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 1,
+      "nf": "10672",
+      "origem": "historico"
+    },
+    {
+      "id": 562,
+      "escola_id": 225,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 7,
+      "nf": "10673",
+      "origem": "historico"
+    },
+    {
+      "id": 563,
+      "escola_id": 226,
+      "descricao": "Conjunto Lego Education Spike Prime",
+      "quantidade": 1,
+      "nf": "10675",
+      "origem": "historico"
+    },
+    {
+      "id": 564,
+      "escola_id": 226,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 7,
+      "nf": "10676",
+      "origem": "historico"
+    },
+    {
+      "id": 565,
+      "escola_id": 226,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 12,
+      "nf": "10677",
+      "origem": "historico"
+    },
+    {
+      "id": 566,
+      "escola_id": 227,
+      "descricao": "Notebook Asus X515KA 15.6\"",
+      "quantidade": 1,
+      "nf": "10678",
+      "origem": "historico"
+    },
+    {
+      "id": 567,
+      "escola_id": 227,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 7,
+      "nf": "10679",
+      "origem": "historico"
+    },
+    {
+      "id": 568,
+      "escola_id": 228,
+      "descricao": "Projetor Epson PowerLite E20",
+      "quantidade": 1,
+      "nf": "10681",
+      "origem": "historico"
+    },
+    {
+      "id": 569,
+      "escola_id": 228,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 7,
+      "nf": "10682",
+      "origem": "historico"
+    },
+    {
+      "id": 570,
+      "escola_id": 228,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 12,
+      "nf": "10683",
+      "origem": "historico"
+    },
+    {
+      "id": 571,
+      "escola_id": 229,
+      "descricao": "Chromebook Lenovo N23",
+      "quantidade": 1,
+      "nf": "10684",
+      "origem": "historico"
+    },
+    {
+      "id": 572,
+      "escola_id": 229,
+      "descricao": "Roteador Wi-Fi 6 Mesh TP-Link",
+      "quantidade": 7,
+      "nf": "10685",
+      "origem": "historico"
+    }
+  ]
+}

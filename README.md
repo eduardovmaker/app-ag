@@ -14,7 +14,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **Via Audit** é uma solução completa (Mobile App + API REST + SDD Kit) desenvolvida para a **auditoria de comodato de equipamentos educacionais** da **Via Educat**. 
+O **Via Audit** é uma solução completa (Mobile App + API REST + SDD Kit) desenvolvida para a **auditoria de comodato de equipamentos educacionais**. 
 
 O sistema permite a verificação, registro, foto-documentação, localização geográfica e coleta de assinatura digital de gestores escolares durante a auditoria de inventário de equipamentos cedidos em regime de comodato.
 

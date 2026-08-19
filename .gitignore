@@ -32,6 +32,8 @@ Thumbs.db
 # Uploads & Temp
 uploads/*
 !uploads/.gitkeep
+via-audit-api/uploads/*
+!via-audit-api/uploads/.gitkeep
 
 # SDD Kit & local outputs
 graphify-out/

@@ -24,10 +24,10 @@ class _ListaEscolasScreenState extends State<ListaEscolasScreen> {
 
   bool _isLoading = true;
   bool _isOffline = false;
-  String _orientadorNome = 'Daniela Moreira';
-  int _orientadorId = 7;
-  int _total = 12;
-  int _visitadas = 3;
+  String _orientadorNome = 'Orientador';
+  int _orientadorId = 5;
+  int _total = 0;
+  int _visitadas = 0;
   List<EscolaModel> _escolas = [];
   Position? _currentPosition;
 
@@ -91,11 +91,9 @@ class _ListaEscolasScreenState extends State<ListaEscolasScreen> {
         if (data['orientador'] != null) {
           _orientadorNome = data['orientador']['nome'] ?? _orientadorNome;
         }
-        if (data['resumo'] != null) {
-          _total = data['resumo']['total'] ?? 12;
-          _visitadas = data['resumo']['visitadas'] ?? 3;
-        }
-        _escolas = data['escolas'] ?? [];
+        _escolas = (data['escolas'] as List<EscolaModel>?) ?? [];
+        _total = _escolas.length;
+        _visitadas = _escolas.where((e) => e.status == 'concluida').length;
         _isLoading = false;
       });
       _calcularDistancias();
@@ -193,7 +191,7 @@ class _ListaEscolasScreenState extends State<ListaEscolasScreen> {
                           } else {
                             await context.push('/checklist', extra: {'escolaId': escola.id, 'escolaNome': escola.nome});
                           }
-                          _carregarDados();
+                          if (mounted) _carregarDados();
                         },
                       );
                     }),

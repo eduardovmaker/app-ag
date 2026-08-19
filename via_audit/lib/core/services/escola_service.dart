@@ -1,4 +1,5 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter/foundation.dart';
 import '../api/api_client.dart';
 import '../db/local_db.dart';
@@ -7,6 +8,7 @@ import '../models/escola_model.dart';
 
 class EscolaService {
   final _api = ApiClient().client;
+  final _storage = const FlutterSecureStorage();
 
   Future<Map<String, dynamic>> obterEscolas(int orientadorId) async {
     final connectivityResult = await Connectivity().checkConnectivity();
@@ -42,9 +44,11 @@ class EscolaService {
     final escolasLocais = await dao.listarPorOrientador(orientadorId);
     final visitadas = escolasLocais.where((e) => e.status == 'concluida').length;
 
+    final savedNome = await _storage.read(key: 'orientadorNome') ?? 'Orientador';
+
     return {
       'isOffline': true,
-      'orientador': {'id': orientadorId, 'nome': 'Daniela Moreira'},
+      'orientador': {'id': orientadorId, 'nome': savedNome},
       'resumo': {'total': escolasLocais.length, 'visitadas': visitadas, 'semanaAtual': 3, 'totalSemanas': 8},
       'escolas': escolasLocais,
     };

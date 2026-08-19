@@ -4,12 +4,13 @@ const store = require('../../database/store');
 
 exports.listar = async (req, res, next) => {
   try {
-    const orientadorId = parseInt(req.query.orientadorId, 10);
+    // Proteger contra IDOR: se req.user estiver definido pelo JWT, força orientadorId do token
+    const orientadorId = req.user ? req.user.id : parseInt(req.query.orientadorId, 10);
     if (!orientadorId) {
-      return error(res, 'Parametro orientadorId e obrigatorio', 400);
+      return error(res, 'Parametro orientadorId e obrigatorio ou token de autenticacao invalido', 400);
     }
 
-    let orientadorNome = "Daniela Moreira";
+    let orientadorNome = req.user ? req.user.nome : "Orientador";
     let escolasList = [];
 
     try {

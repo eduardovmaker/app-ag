@@ -60,8 +60,24 @@ class AtivoChecklistItem extends StatelessWidget {
     }
   }
 
+  Widget _buildBadge(String label, Color bg, Color text) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+      decoration: BoxDecoration(
+        color: bg,
+        borderRadius: BorderRadius.circular(6),
+      ),
+      child: Text(
+        label,
+        style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600, color: text),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    final hasBreakdown = ativo.qtdOk > 0 || ativo.qtdAvariado > 0 || ativo.qtdNaoEncontrado > 0 || ativo.qtdExtra > 0;
+
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       decoration: BoxDecoration(
@@ -80,7 +96,7 @@ class AtivoChecklistItem extends StatelessWidget {
         ],
       ),
       child: ListTile(
-        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         onTap: onTap,
         leading: _buildStatusIcon(),
         title: Text(
@@ -93,13 +109,35 @@ class AtivoChecklistItem extends StatelessWidget {
         ),
         subtitle: Padding(
           padding: const EdgeInsets.only(top: 4.0),
-          child: Text(
-            '${ativo.quantidade} un · NF ${ativo.nf ?? "S/N"}',
-            style: AppTextStyles.sans(
-              fontSize: 12,
-              fontWeight: FontWeight.w500,
-              color: AppColors.textSecondary,
-            ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                '${ativo.quantidade} un · NF ${ativo.nf ?? "S/N"} · (${ativo.unidadesRegistradas}/${ativo.quantidade} auditadas)',
+                style: AppTextStyles.sans(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w500,
+                  color: AppColors.textSecondary,
+                ),
+              ),
+              if (hasBreakdown) ...[
+                const SizedBox(height: 6),
+                Wrap(
+                  spacing: 4,
+                  runSpacing: 4,
+                  children: [
+                    if (ativo.qtdOk > 0)
+                      _buildBadge('🟢 ${ativo.qtdOk} OK', Colors.green.shade50, Colors.green.shade800),
+                    if (ativo.qtdAvariado > 0)
+                      _buildBadge('⚠️ ${ativo.qtdAvariado} avariado(s)', Colors.orange.shade50, Colors.orange.shade800),
+                    if (ativo.qtdNaoEncontrado > 0)
+                      _buildBadge('❌ ${ativo.qtdNaoEncontrado} não enc.', Colors.red.shade50, Colors.red.shade800),
+                    if (ativo.qtdExtra > 0)
+                      _buildBadge('➕ ${ativo.qtdExtra} extra', Colors.blue.shade50, Colors.blue.shade800),
+                  ],
+                ),
+              ],
+            ],
           ),
         ),
         trailing: Container(

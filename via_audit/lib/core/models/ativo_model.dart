@@ -7,6 +7,10 @@ class AtivoModel {
   final String origem; // 'historico', 'extra'
   final String statusChecklist; // 'pendente', 'em_andamento', 'conferido', 'divergente'
   final int unidadesRegistradas;
+  final int qtdOk;
+  final int qtdAvariado;
+  final int qtdNaoEncontrado;
+  final int qtdExtra;
 
   AtivoModel({
     required this.id,
@@ -17,6 +21,10 @@ class AtivoModel {
     required this.origem,
     required this.statusChecklist,
     required this.unidadesRegistradas,
+    this.qtdOk = 0,
+    this.qtdAvariado = 0,
+    this.qtdNaoEncontrado = 0,
+    this.qtdExtra = 0,
   });
 
   factory AtivoModel.fromJson(Map<String, dynamic> json) {
@@ -29,6 +37,10 @@ class AtivoModel {
       origem: json['origem'] ?? 'historico',
       statusChecklist: json['statusChecklist'] ?? json['status_checklist'] ?? 'pendente',
       unidadesRegistradas: json['unidadesRegistradas'] ?? json['unidades_registradas'] ?? 0,
+      qtdOk: json['qtdOk'] ?? json['qtd_ok'] ?? 0,
+      qtdAvariado: json['qtdAvariado'] ?? json['qtd_avariado'] ?? 0,
+      qtdNaoEncontrado: json['qtdNaoEncontrado'] ?? json['qtd_nao_encontrado'] ?? 0,
+      qtdExtra: json['qtdExtra'] ?? json['qtd_extra'] ?? 0,
     );
   }
 
@@ -42,6 +54,10 @@ class AtivoModel {
       'origem': origem,
       'statusChecklist': statusChecklist,
       'unidadesRegistradas': unidadesRegistradas,
+      'qtdOk': qtdOk,
+      'qtdAvariado': qtdAvariado,
+      'qtdNaoEncontrado': qtdNaoEncontrado,
+      'qtdExtra': qtdExtra,
     };
   }
 

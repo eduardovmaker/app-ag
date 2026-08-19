@@ -45,7 +45,13 @@ class _LoginScreenState extends State<LoginScreen> {
     try {
       final orientador = await _authService.login(_pin);
       if (mounted && orientador != null) {
-        context.go('/schools');
+        final role = await _authService.getSavedUserRole();
+        if (!mounted) return;
+        if (role == 'admin' || orientador.id == 9999) {
+          context.go('/admin');
+        } else {
+          context.go('/schools');
+        }
       }
     } catch (e) {
       if (mounted) {

@@ -4,7 +4,8 @@ const store = require('../../database/store');
 
 exports.iniciar = async (req, res, next) => {
   try {
-    const { orientadorId, escolaId } = req.body;
+    const orientadorId = req.user ? req.user.id : parseInt(req.body.orientadorId, 10);
+    const escolaId = parseInt(req.body.escolaId, 10);
 
     if (!orientadorId || !escolaId) {
       return error(res, 'orientadorId e escolaId sao obrigatorios', 400);
@@ -31,7 +32,7 @@ exports.iniciar = async (req, res, next) => {
         [orientadorId, escolaId]
       );
     } catch (e) {
-      // Fallback em memória
+      // Fallback em memória com suporte a comparação numérica frouxa
       let existing = store.visitas.find(v => v.orientador_id == orientadorId && v.escola_id == escolaId && v.status === 'em_andamento');
       if (existing) {
         visitaId = existing.id;
@@ -62,6 +63,7 @@ exports.concluir = async (req, res, next) => {
     const visitaId = parseInt(req.params.visitaId, 10);
     const { observacaoGeral, escolaId } = req.body;
     const targetEscolaId = escolaId ? parseInt(escolaId, 10) : null;
+    const orientadorId = req.user ? req.user.id : null;
     const assinaturaFile = req.file;
 
     const assinaturaUrl = assinaturaFile ? `/uploads/assinaturas/${assinaturaFile.filename}` : null;
@@ -87,22 +89,29 @@ exports.concluir = async (req, res, next) => {
         }
       }
     } catch (e) {
-      const eId = targetEscolaId || 2;
-      const oe = store.orientador_escola.find(r => r.escola_id === eId);
-      if (oe) {
-        oe.status = 'concluida';
-      }
-      const v = store.visitas.find(x => x.id === visitaId);
+      let eId = targetEscolaId;
+      const v = store.visitas.find(x => x.id == visitaId);
       if (v) {
         v.status = 'concluida';
         v.concluida_em = new Date();
         v.assinatura_url = assinaturaUrl;
         v.observacao_geral = observacaoGeral || '';
+        if (!eId) eId = v.escola_id;
+      }
+
+      if (eId) {
+        store.orientador_escola.forEach(r => {
+          if (r.escola_id == eId) {
+            if (!orientadorId || r.orientador_id == orientadorId) {
+              r.status = 'concluida';
+            }
+          }
+        });
       }
     }
 
     // Calcular resumo de registros
-    const regs = store.registros.filter(r => r.visita_id === visitaId);
+    const regs = store.registros.filter(r => r.visita_id == visitaId);
     const encontrados = regs.filter(r => r.status === 'ok').length;
     const divergentes = regs.filter(r => r.status === 'avariado').length;
     const naoEncontrados = regs.filter(r => r.status === 'nao_encontrado').length;
@@ -127,7 +136,7 @@ exports.concluir = async (req, res, next) => {
 exports.resumo = async (req, res, next) => {
   try {
     const visitaId = parseInt(req.params.visitaId, 10);
-    const regs = store.registros.filter(r => r.visita_id === visitaId);
+    const regs = store.registros.filter(r => r.visita_id == visitaId);
 
     const encontrados = regs.filter(r => r.status === 'ok').length;
     const divergentes = regs.filter(r => r.status === 'avariado').length;

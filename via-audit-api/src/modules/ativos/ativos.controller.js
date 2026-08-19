@@ -5,7 +5,7 @@ const store = require('../../database/store');
 exports.listar = async (req, res, next) => {
   try {
     const escolaId = parseInt(req.query.escolaId, 10);
-    const orientadorId = parseInt(req.query.orientadorId, 10);
+    const orientadorId = req.user ? req.user.id : parseInt(req.query.orientadorId, 10);
 
     if (!escolaId) {
       return error(res, 'Parametro escolaId e obrigatorio', 400);
@@ -34,7 +34,7 @@ exports.listar = async (req, res, next) => {
       escola = { id: escolaId, nome: "Colégio Álamo Vinhedo", codigo: "023448" };
     }
 
-    // Mapear statusChecklist
+    // Mapear statusChecklist e contagens detalhadas por tipo
     let totalItens = 0;
     let conferidos = 0;
 
@@ -44,8 +44,13 @@ exports.listar = async (req, res, next) => {
       let statusChecklist = 'pendente';
 
       // Buscar registros gravados para este ativo
-      const regs = store.registros.filter(r => r.ativo_id === a.id);
+      const regs = store.registros.filter(r => r.ativo_id == a.id);
       regCount = regs.length;
+
+      const qtdOk = regs.filter(r => r.status === 'ok').length;
+      const qtdAvariado = regs.filter(r => r.status === 'avariado').length;
+      const qtdNaoEncontrado = regs.filter(r => r.status === 'nao_encontrado').length;
+      const qtdExtra = regs.filter(r => r.status === 'extra').length;
 
       if (regCount >= a.quantidade) {
         const temDivergencia = regs.some(r => r.status !== 'ok');
@@ -58,12 +63,17 @@ exports.listar = async (req, res, next) => {
 
       return {
         id: a.id,
+        escolaId: a.escola_id || escolaId,
         descricao: a.descricao,
         quantidade: a.quantidade,
         nf: a.nf,
         origem: a.origem,
         statusChecklist,
-        unidadesRegistradas: regCount
+        unidadesRegistradas: regCount,
+        qtdOk,
+        qtdAvariado,
+        qtdNaoEncontrado,
+        qtdExtra
       };
     });
 

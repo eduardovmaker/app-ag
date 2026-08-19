@@ -8,7 +8,7 @@ exports.uploadBatch = async (req, res, next) => {
     const { registros } = req.body;
 
     if (!registros || !Array.isArray(registros)) {
-      return error(res, 'Array de registros e obrigatorio', 400);
+      return error(res, 'Array de registros é obrigatório', 400);
     }
 
     let salvos = 0;
@@ -18,6 +18,11 @@ exports.uploadBatch = async (req, res, next) => {
       try {
         let fotoUrl = '/uploads/fotos/sync-offline.jpg';
         if (reg.fotoBase64) {
+          // Validação do prefixo de dados Base64 de imagem seguro
+          if (typeof reg.fotoBase64 !== 'string' || (!reg.fotoBase64.startsWith('data:image/') && reg.fotoBase64.length > 5000000)) {
+            throw new Error('Formato ou tamanho inválido de imagem Base64');
+          }
+
           const filename = `sync-${Date.now()}-${Math.round(Math.random() * 1000)}.jpg`;
           const uploadDir = path.join(__dirname, '../../../uploads/fotos');
           if (!fs.existsSync(uploadDir)) {

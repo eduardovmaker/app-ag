@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/models/ativo_model.dart';
 import '../../core/services/ativo_service.dart';
+import '../../core/services/auth_service.dart';
 import '../../core/services/visita_service.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_text_styles.dart';
@@ -20,11 +21,13 @@ class ChecklistEscolaScreen extends StatefulWidget {
 class _ChecklistEscolaScreenState extends State<ChecklistEscolaScreen> {
   final AtivoService _ativoService = AtivoService();
   final VisitaService _visitaService = VisitaService();
+  final AuthService _authService = AuthService();
 
   bool _isLoading = true;
   String _escolaNome = 'Colégio Álamo Vinhedo';
   String _codigo = '023448';
   int _escolaId = 1;
+  int _orientadorId = 5;
   int _totalItens = 9;
   int _conferidos = 5;
   int? _focusedAtivoId;
@@ -45,7 +48,12 @@ class _ChecklistEscolaScreenState extends State<ChecklistEscolaScreen> {
       _isLoading = true;
     });
 
-    final data = await _ativoService.obterAtivos(_escolaId, 7);
+    final savedId = await _authService.getSavedOrientadorId();
+    if (savedId != null) {
+      _orientadorId = int.parse(savedId);
+    }
+
+    final data = await _ativoService.obterAtivos(_escolaId, _orientadorId);
 
     if (mounted) {
       setState(() {
@@ -84,7 +92,7 @@ class _ChecklistEscolaScreenState extends State<ChecklistEscolaScreen> {
       _focusedAtivoId = ativo.id;
     });
 
-    final visitaId = await _visitaService.iniciarVisita(7, _escolaId);
+    final visitaId = await _visitaService.iniciarVisita(_orientadorId, _escolaId);
     if (mounted) {
       await context.push('/item-register', extra: {
         'visitaId': visitaId,

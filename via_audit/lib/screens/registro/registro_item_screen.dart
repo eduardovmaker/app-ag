@@ -76,7 +76,6 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
       }
     } catch (e) {
       debugPrint('Erro ao abrir câmera: $e');
-      // Fallback em simulador / desktop
       final XFile? photo = await _picker.pickImage(source: ImageSource.gallery, imageQuality: 80);
       if (photo != null) {
         setState(() {
@@ -150,7 +149,7 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
       unidadeNumero: _unidadeNumero,
       status: _selectedStatus,
       patrimonioFisico: _patrimonioController.text.trim(),
-      foto: _foto,
+      foto: _selectedStatus == 'nao_encontrado' ? null : _foto,
       lat: _position?.latitude,
       lng: _position?.longitude,
       observacao: _obsController.text.trim(),
@@ -215,7 +214,7 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
         unidadeNumero: u,
         status: _selectedStatus,
         patrimonioFisico: _patrimonioController.text.trim(),
-        foto: _foto,
+        foto: _selectedStatus == 'nao_encontrado' ? null : _foto,
         lat: _position?.latitude,
         lng: _position?.longitude,
         observacao: _obsController.text.trim(),
@@ -242,6 +241,7 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: AppColors.textPrimary),
           onPressed: () => context.pop(),
+          tooltip: 'Voltar ao Checklist',
         ),
         title: Text(
           'Registro do Item',
@@ -287,15 +287,7 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
             ),
             const SizedBox(height: 16),
 
-            // Foto
-            FotoCapturaWidget(
-              foto: _foto,
-              hasGps: _position != null,
-              onTirarFoto: _tirarFoto,
-            ),
-            const SizedBox(height: 20),
-
-            // Selector de Status
+            // Selector de Status primeiro para determinar se a foto deve ser exibida
             StatusSelectorWidget(
               selectedStatus: _selectedStatus,
               onStatusSelected: (st) {
@@ -305,6 +297,39 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
               },
             ),
             const SizedBox(height: 20),
+
+            // Foto (Oculta se o item não for encontrado)
+            if (_selectedStatus != 'nao_encontrado') ...[
+              FotoCapturaWidget(
+                foto: _foto,
+                hasGps: _position != null,
+                onTirarFoto: _tirarFoto,
+              ),
+              const SizedBox(height: 20),
+            ] else ...[
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.red.shade50,
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(color: Colors.red.shade200),
+                ),
+                child: Row(
+                  children: [
+                    Icon(Icons.no_photography_outlined, color: Colors.red.shade700, size: 24),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Text(
+                        'Foto desabilitada: O item foi marcado como Não Encontrado.',
+                        style: TextStyle(fontSize: 13, color: Colors.red.shade800, fontWeight: FontWeight.w500),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 20),
+            ],
 
             // Input Patrimônio (opcional para 'nao_encontrado')
             if (_selectedStatus != 'nao_encontrado')
@@ -326,8 +351,8 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
                 controller: _obsController,
                 maxLines: 2,
                 decoration: const InputDecoration(
-                  labelText: 'Observação do problema',
-                  hintText: 'Descreva a avaria ou ausência...',
+                  labelText: 'Observação do problema / motivo',
+                  hintText: 'Descreva a avaria ou motivo pelo qual o item não foi encontrado...',
                   border: OutlineInputBorder(),
                 ),
               ),
@@ -351,6 +376,18 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
                 isLoading: _isLoading,
               ),
             ],
+
+            const SizedBox(height: 16),
+            Center(
+              child: TextButton.icon(
+                onPressed: () => context.pop(),
+                icon: const Icon(Icons.arrow_back, size: 18, color: AppColors.textSecondary),
+                label: const Text(
+                  'Voltar ao Checklist sem Salvar',
+                  style: TextStyle(color: AppColors.textSecondary, fontSize: 13),
+                ),
+              ),
+            ),
           ],
         ),
       ),

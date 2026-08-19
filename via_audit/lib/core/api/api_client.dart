@@ -1,11 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class ApiClient {
   static final ApiClient _instance = ApiClient._internal();
   factory ApiClient() => _instance;
 
   late Dio _dio;
+  final _storage = const FlutterSecureStorage();
 
   ApiClient._internal() {
     _dio = Dio(
@@ -24,7 +26,12 @@ class ApiClient {
 
     _dio.interceptors.add(
       InterceptorsWrapper(
-        onRequest: (options, handler) {
+        onRequest: (options, handler) async {
+          // Injetar Token JWT dinamicamente das requisições se disponível
+          final token = await _storage.read(key: 'jwtToken');
+          if (token != null && token.isNotEmpty) {
+            options.headers['Authorization'] = 'Bearer $token';
+          }
           debugPrint('🌐 [API Request] ${options.method} ${options.path}');
           return handler.next(options);
         },
