@@ -38,6 +38,7 @@ CREATE TABLE IF NOT EXISTS ativos (
   quantidade      INT NOT NULL DEFAULT 1,
   nf              VARCHAR(50),
   origem          ENUM('historico','extra') DEFAULT 'historico',
+  is_auditavel    TINYINT(1) DEFAULT 1,
   criado_em       DATETIME DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (escola_id) REFERENCES escolas(id)
 );

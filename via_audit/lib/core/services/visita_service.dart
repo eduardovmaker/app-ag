@@ -69,6 +69,7 @@ class VisitaService {
     final connectivityResult = await Connectivity().checkConnectivity();
     final isOnline = !connectivityResult.contains(ConnectivityResult.none);
 
+    bool onlineSucesso = false;
     if (isOnline) {
       try {
         final formData = FormData.fromMap({
@@ -79,13 +80,27 @@ class VisitaService {
 
         final response = await _api.post('/visitas/$visitaId/concluir', data: formData);
         if (response.data != null && response.data['success'] == true) {
-          return true;
+          onlineSucesso = true;
         }
       } catch (e) {
-        debugPrint('Erro ao concluir visita online: $e');
+        debugPrint('Erro ao concluir visita online: $e. Persistindo localmente em SQLite...');
       }
     }
 
-    return false;
+    // Salvar estado concluído no SQLite
+    await VisitasDao(db).salvarVisita(
+      VisitaModel(
+        id: visitaId,
+        orientadorId: 1,
+        escolaId: escolaId,
+        status: 'concluida',
+        concluidaEm: DateTime.now().toIso8601String(),
+        assinaturaPath: assinaturaFile.path,
+        observacaoGeral: observacaoGeral,
+        sincronizado: onlineSucesso,
+      ),
+    );
+
+    return onlineSucesso;
   }
 }

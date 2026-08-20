@@ -51,9 +51,9 @@ class RegistroService {
       compressedFoto = await ImageUtils.compressImage(foto);
     }
 
-    if (isOnline && compressedFoto != null) {
+    if (isOnline) {
       try {
-        final formData = FormData.fromMap({
+        final Map<String, dynamic> mapData = {
           'visitaId': visitaId,
           'ativoId': ativoId,
           'unidadeNumero': unidadeNumero,
@@ -62,10 +62,15 @@ class RegistroService {
           'lat': lat,
           'lng': lng,
           'observacao': observacao ?? '',
-          'foto': await MultipartFile.fromFile(compressedFoto.path),
-        });
+        };
 
+        if (compressedFoto != null) {
+          mapData['foto'] = await MultipartFile.fromFile(compressedFoto.path);
+        }
+
+        final formData = FormData.fromMap(mapData);
         final response = await _api.post('/registros', data: formData);
+
         if (response.data != null && response.data['success'] == true) {
           // Salvar cópia local marcada como sincronizada
           final db = await LocalDb.database;
@@ -77,7 +82,7 @@ class RegistroService {
               unidadeNumero: unidadeNumero,
               status: status,
               patrimonioFisico: patrimonioFisico,
-              fotoPath: compressedFoto.path,
+              fotoPath: compressedFoto?.path,
               lat: lat,
               lng: lng,
               observacao: observacao,
@@ -88,11 +93,11 @@ class RegistroService {
           return true;
         }
       } catch (e) {
-        debugPrint('Erro ao enviar registro para API: $e. Gravando em modo offline...');
+        debugPrint('Erro ao enviar registro para API online: $e. Salvando localmente para sincronização futura...');
       }
     }
 
-    // Gravação Offline em SQLite
+    // Gravação Offline em SQLite (Garante 100% de persistência se sem internet ou queda de rede)
     final db = await LocalDb.database;
     await RegistrosDao(db).salvarRegistro(
       RegistroModel(
