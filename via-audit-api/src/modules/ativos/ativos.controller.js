@@ -19,7 +19,7 @@ exports.listar = async (req, res, next) => {
       if (escRows && escRows.length > 0) escola = escRows[0];
 
       const [rows] = await pool.query(
-        'SELECT id, descricao, quantidade, nf, origem FROM ativos WHERE escola_id = ?',
+        'SELECT id, descricao, quantidade, nf, origem, is_auditavel FROM ativos WHERE escola_id = ? AND is_auditavel = 1',
         [escolaId]
       );
       ativosList = rows;
@@ -27,7 +27,7 @@ exports.listar = async (req, res, next) => {
       // Fallback em memória
       const esc = store.escolas.find(e => e.id === escolaId);
       if (esc) escola = { id: esc.id, nome: esc.nome, codigo: esc.codigo };
-      ativosList = store.ativos.filter(a => a.escola_id === escolaId);
+      ativosList = store.ativos.filter(a => a.escola_id === escolaId && (a.is_auditavel ?? 1) === 1);
     }
 
     if (!escola) {

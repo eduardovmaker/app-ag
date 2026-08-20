@@ -49,14 +49,14 @@ async function getConsolidatedData() {
   const totalExtras = registros.filter(r => r.status === 'extra').length;
 
   const desempenhoOrientadores = orientadores.map(ori => {
-    const rels = orientadorEscola.filter(oe => oe.orientador_id == ori.id);
+    const rels = orientadorEscola.filter(oe => String(oe.orientador_id) === String(ori.id));
     const totEsc = rels.length;
     const concEsc = rels.filter(oe => oe.status === 'concluida').length;
     const pct = totEsc > 0 ? Math.round((concEsc / totEsc) * 100) : 0;
 
-    // Buscar visitas e registros deste orientador
-    const oriVisitaIds = visitas.filter(v => v.orientador_id == ori.id).map(v => v.id);
-    const oriRegs = registros.filter(r => oriVisitaIds.includes(r.visita_id));
+    // Buscar visitas e registros deste orientador (fazendo comparação como String para evitar discrepância de tipo)
+    const oriVisitaIds = visitas.filter(v => String(v.orientador_id) === String(ori.id)).map(v => String(v.id));
+    const oriRegs = registros.filter(r => oriVisitaIds.includes(String(r.visita_id)));
 
     return {
       id: ori.id,
@@ -214,6 +214,103 @@ exports.exportPdf = async (req, res, next) => {
     doc.fillColor('#94A3B8').fontSize(9).text('Documento gerado automaticamente pelo sistema Via Audit. Assinado digitalmente pelo Administrador.', { align: 'center' });
 
     doc.end();
+  } catch (err) {
+    next(err);
+  }
+};
+
+// 4. Listar Todos os Ativos de uma Escola (Visão Admin com Status is_auditavel)
+exports.listarAtivosEscola = async (req, res, next) => {
+  try {
+    const escolaId = parseInt(req.params.escolaId, 10);
+    if (!escolaId) return error(res, 'ID da escola é obrigatório', 400);
+
+    let escola = store.escolas.find(e => e.id === escolaId);
+    let ativos = store.ativos.filter(a => a.escola_id === escolaId);
+
+    try {
+      const [escRows] = await pool.query('SELECT id, nome, codigo FROM escolas WHERE id = ?', [escolaId]);
+      if (escRows.length > 0) escola = escRows[0];
+
+      const [atiRows] = await pool.query('SELECT id, escola_id, descricao, quantidade, nf, origem, is_auditavel FROM ativos WHERE escola_id = ?', [escolaId]);
+      if (atiRows.length > 0) ativos = atiRows;
+    } catch (e) {
+      // Usar store em memória
+    }
+
+    return success(res, {
+      escola,
+      totalAtivos: ativos.length,
+      auditaveis: ativos.filter(a => (a.is_auditavel ?? 1) === 1).length,
+      ativos: ativos.map(a => ({
+        ...a,
+        is_auditavel: a.is_auditavel ?? 1
+      }))
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// 5. Alternar status is_auditavel de um Ativo individual
+exports.toggleAtivoAuditavel = async (req, res, next) => {
+  try {
+    const ativoId = parseInt(req.params.id, 10);
+    const { is_auditavel } = req.body;
+
+    let ativo = store.ativos.find(a => a.id === ativoId);
+    if (ativo) {
+      ativo.is_auditavel = is_auditavel !== undefined ? (is_auditavel ? 1 : 0) : ((ativo.is_auditavel ?? 1) === 1 ? 0 : 1);
+    }
+
+    try {
+      const newStatus = ativo ? ativo.is_auditavel : (is_auditavel ? 1 : 0);
+      await pool.query('UPDATE ativos SET is_auditavel = ? WHERE id = ?', [newStatus, ativoId]);
+    } catch (e) {
+      // Store em memória já atualizado
+    }
+
+    return success(res, {
+      ativoId,
+      is_auditavel: ativo ? ativo.is_auditavel : (is_auditavel ? 1 : 0),
+      mensagem: 'Status do ativo atualizado com sucesso!'
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// 6. Atualizar status is_auditavel em Lote (Bulk Toggle)
+exports.bulkToggleAtivos = async (req, res, next) => {
+  try {
+    const escolaId = parseInt(req.params.escolaId, 10);
+    const { ativoIds, is_auditavel } = req.body; // se ativoIds for null/vazio, afeta todos os ativos da escola
+
+    const targetVal = is_auditavel ? 1 : 0;
+
+    store.ativos.forEach(a => {
+      if (a.escola_id === escolaId) {
+        if (!ativoIds || ativoIds.length === 0 || ativoIds.includes(a.id)) {
+          a.is_auditavel = targetVal;
+        }
+      }
+    });
+
+    try {
+      if (!ativoIds || ativoIds.length === 0) {
+        await pool.query('UPDATE ativos SET is_auditavel = ? WHERE escola_id = ?', [targetVal, escolaId]);
+      } else {
+        await pool.query('UPDATE ativos SET is_auditavel = ? WHERE escola_id = ? AND id IN (?)', [targetVal, escolaId, ativoIds]);
+      }
+    } catch (e) {
+      // Store em memória atualizado
+    }
+
+    return success(res, {
+      escolaId,
+      is_auditavel: targetVal,
+      mensagem: 'Status dos ativos da escola atualizado em lote com sucesso!'
+    });
   } catch (err) {
     next(err);
   }

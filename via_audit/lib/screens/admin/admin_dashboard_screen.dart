@@ -84,6 +84,240 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
     }
   }
 
+  Future<void> _abrirSeletorEscolasParaGerenciamentoAtivos() async {
+    final List escolasList = _statsData?['escolas'] ?? [];
+
+    if (escolasList.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Nenhuma escola encontrada para gerenciar.')),
+      );
+      return;
+    }
+
+    String busca = '';
+
+    await showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.white,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) {
+        return StatefulBuilder(
+          builder: (context, setModalState) {
+            final escolasFiltradas = escolasList.where((e) {
+              final nome = (e['nome'] ?? '').toString().toLowerCase();
+              return nome.contains(busca.toLowerCase());
+            }).toList();
+
+            return Container(
+              height: MediaQuery.of(context).size.height * 0.8,
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Center(
+                    child: Container(
+                      width: 40,
+                      height: 4,
+                      decoration: BoxDecoration(color: Colors.grey.shade300, borderRadius: BorderRadius.circular(2)),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Selecione uma Escola para Gerenciar Ativos',
+                    style: AppTextStyles.sans(fontSize: 16, fontWeight: FontWeight.bold, color: AppColors.textPrimary),
+                  ),
+                  const SizedBox(height: 12),
+                  TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Buscar escola por nome...',
+                      prefixIcon: const Icon(Icons.search),
+                      filled: true,
+                      fillColor: Colors.grey.shade100,
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(10), borderSide: BorderSide.none),
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                    ),
+                    onChanged: (val) {
+                      setModalState(() {
+                        busca = val;
+                      });
+                    },
+                  ),
+                  const SizedBox(height: 12),
+                  Expanded(
+                    child: ListView.builder(
+                      itemCount: escolasFiltradas.length,
+                      itemBuilder: (context, idx) {
+                        final esc = escolasFiltradas[idx];
+                        return ListTile(
+                          title: Text(
+                            esc['nome'] ?? '',
+                            style: AppTextStyles.sans(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textPrimary),
+                          ),
+                          subtitle: Text('Código: ${esc['codigo'] ?? 'N/A'} · ID: ${esc['id']}'),
+                          trailing: const Icon(Icons.arrow_forward_ios, size: 16, color: AppColors.primary),
+                          onTap: () {
+                            Navigator.pop(ctx);
+                            _exibirModalGerenciamentoAtivos(esc['id'], esc['nome'] ?? '');
+                          },
+                        );
+                      },
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+
+  Future<void> _exibirModalGerenciamentoAtivos(int escolaId, String escolaNome) async {
+    List ativosList = [];
+    bool carregandoAtivos = true;
+
+    Future<void> carregarAtivosAdmin() async {
+      try {
+        final res = await _api.get('/admin/escolas/$escolaId/ativos');
+        if (res.data != null && res.data['success'] == true) {
+          ativosList = res.data['data']['ativos'] ?? [];
+        }
+      } catch (e) {
+        debugPrint('Erro ao carregar ativos para admin: $e');
+      } finally {
+        carregandoAtivos = false;
+      }
+    }
+
+    await showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.white,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) {
+        return StatefulBuilder(
+          builder: (context, setModalState) {
+            if (carregandoAtivos) {
+              carregarAtivosAdmin().then((_) {
+                setModalState(() {});
+              });
+            }
+
+            return Container(
+              height: MediaQuery.of(context).size.height * 0.85,
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Center(
+                    child: Container(
+                      width: 40,
+                      height: 4,
+                      decoration: BoxDecoration(color: Colors.grey.shade300, borderRadius: BorderRadius.circular(2)),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Configurar Ativos Auditáveis',
+                    style: AppTextStyles.sans(fontSize: 16, fontWeight: FontWeight.bold, color: AppColors.textPrimary),
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    escolaNome,
+                    style: AppTextStyles.sans(fontSize: 13, color: AppColors.primary, fontWeight: FontWeight.w600),
+                  ),
+                  const SizedBox(height: 12),
+                  if (!carregandoAtivos)
+                    Row(
+                      children: [
+                        ElevatedButton.icon(
+                          style: ElevatedButton.styleFrom(backgroundColor: Colors.green.shade700),
+                          onPressed: () async {
+                            await _api.put('/admin/escolas/$escolaId/ativos/bulk-toggle', data: {'is_auditavel': 1});
+                            setModalState(() {
+                              carregandoAtivos = true;
+                            });
+                          },
+                          icon: const Icon(Icons.check_box, color: Colors.white, size: 18),
+                          label: const Text('Marcar Todos', style: TextStyle(color: Colors.white, fontSize: 11)),
+                        ),
+                        const SizedBox(width: 8),
+                        ElevatedButton.icon(
+                          style: ElevatedButton.styleFrom(backgroundColor: Colors.red.shade700),
+                          onPressed: () async {
+                            await _api.put('/admin/escolas/$escolaId/ativos/bulk-toggle', data: {'is_auditavel': 0});
+                            setModalState(() {
+                              carregandoAtivos = true;
+                            });
+                          },
+                          icon: const Icon(Icons.check_box_outline_blank, color: Colors.white, size: 18),
+                          label: const Text('Desmarcar Todos', style: TextStyle(color: Colors.white, fontSize: 11)),
+                        ),
+                      ],
+                    ),
+                  const SizedBox(height: 12),
+                  Expanded(
+                    child: carregandoAtivos
+                        ? const Center(child: CircularProgressIndicator())
+                        : ativosList.isEmpty
+                            ? const Center(child: Text('Nenhum ativo encontrado para esta escola.'))
+                            : ListView.builder(
+                                itemCount: ativosList.length,
+                                itemBuilder: (context, idx) {
+                                  final at = ativosList[idx];
+                                  final bool isAuditavel = (at['is_auditavel'] as num?)?.toInt() == 1;
+
+                                  return Card(
+                                    elevation: 0,
+                                    margin: const EdgeInsets.only(bottom: 8),
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(10),
+                                      side: BorderSide(color: isAuditavel ? Colors.green.shade300 : Colors.grey.shade300),
+                                    ),
+                                    color: isAuditavel ? Colors.green.shade50 : Colors.grey.shade50,
+                                    child: SwitchListTile(
+                                      activeThumbColor: Colors.green.shade700,
+                                      value: isAuditavel,
+                                      title: Text(
+                                        at['descricao'] ?? '',
+                                        style: AppTextStyles.sans(
+                                          fontSize: 13,
+                                          fontWeight: FontWeight.w700,
+                                          color: isAuditavel ? AppColors.textPrimary : Colors.grey.shade600,
+                                        ),
+                                      ),
+                                      subtitle: Text(
+                                        'Qtd: ${at['quantidade']} · NF: ${at['nf'] ?? 'S/N'} ${isAuditavel ? '· [Aparece na Auditoria]' : '· [OCULTO para o orientador]'}',
+                                        style: TextStyle(
+                                          fontSize: 11,
+                                          color: isAuditavel ? Colors.green.shade800 : Colors.grey.shade600,
+                                        ),
+                                      ),
+                                      onChanged: (bool newVal) async {
+                                        setModalState(() {
+                                          at['is_auditavel'] = newVal ? 1 : 0;
+                                        });
+                                        await _api.patch('/admin/ativos/${at['id']}/toggle-auditavel', data: {'is_auditavel': newVal ? 1 : 0});
+                                      },
+                                    ),
+                                  );
+                                },
+                              ),
+                  ),
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+
   Future<void> _logout() async {
     await _authService.logout();
     if (mounted) {
@@ -132,6 +366,13 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
   Widget build(BuildContext context) {
     final rg = _statsData?['resumoGeral'] ?? {};
     final List orientadores = _statsData?['desempenhoOrientadores'] ?? [];
+
+    final int totalEscolas = (rg['totalEscolas'] as num?)?.toInt() ?? 229;
+    final int escolasConcluidas = (rg['escolasConcluidas'] as num?)?.toInt() ?? 0;
+    final int progressoGeralPct = (rg['progressoGeralPct'] as num?)?.toInt() ?? 0;
+    final int totalRegistros = (rg['totalRegistros'] as num?)?.toInt() ?? 0;
+    final int totalAvariados = (rg['totalAvariados'] as num?)?.toInt() ?? 0;
+    final int totalNaoEncontrados = (rg['totalNaoEncontrados'] as num?)?.toInt() ?? 0;
 
     return Scaffold(
       backgroundColor: AppColors.surface,
@@ -203,9 +444,9 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
                     // KPIs Globais - Linha 1
                     Row(
                       children: [
-                        _buildKpiCard('Total Escolas', '${rg['totalEscolas'] ?? 229}', Icons.school_outlined, AppColors.primary),
+                        _buildKpiCard('Total Escolas', '$totalEscolas', Icons.school_outlined, AppColors.primary),
                         const SizedBox(width: 12),
-                        _buildKpiCard('Concluídas', '${rg['escolasConcluidas'] ?? 0} (${rg['progressoGeralPct'] ?? 0}%)', Icons.check_circle_outline, AppColors.success),
+                        _buildKpiCard('Concluídas', '$escolasConcluidas ($progressoGeralPct%)', Icons.check_circle_outline, AppColors.success),
                       ],
                     ),
                     const SizedBox(height: 12),
@@ -213,17 +454,33 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
                     // KPIs Globais - Linha 2
                     Row(
                       children: [
-                        _buildKpiCard('Equip. Auditados', '${rg['totalRegistros'] ?? 0}', Icons.inventory_2_outlined, Colors.indigo),
+                        _buildKpiCard('Equip. Auditados', '$totalRegistros', Icons.inventory_2_outlined, Colors.indigo),
                         const SizedBox(width: 12),
-                        _buildKpiCard('Avariados / Ausentes', '${(rg['totalAvariados'] ?? 0) + (rg['totalNaoEncontrados'] ?? 0)}', Icons.warning_amber_rounded, AppColors.warning),
+                        _buildKpiCard('Avariados / Ausentes', '${totalAvariados + totalNaoEncontrados}', Icons.warning_amber_rounded, AppColors.warning),
                       ],
                     ),
                     const SizedBox(height: 24),
 
                     // Botões de Exportação de Relatórios
                     Text(
-                      'Exportação de Relatórios',
+                      'Gestão & Relatórios Admin',
                       style: AppTextStyles.sans(fontSize: 16, fontWeight: FontWeight.w700, color: AppColors.textPrimary),
+                    ),
+                    const SizedBox(height: 12),
+                    ElevatedButton.icon(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple.shade700,
+                        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      ),
+                      onPressed: _abrirSeletorEscolasParaGerenciamentoAtivos,
+                      icon: const Icon(Icons.playlist_add_check_circle_outlined, color: Colors.white, size: 24),
+                      label: const Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text('⚙️ Flagar / Configurar Ativos Auditáveis por Escola', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13)),
+                        ],
+                      ),
                     ),
                     const SizedBox(height: 12),
                     Row(

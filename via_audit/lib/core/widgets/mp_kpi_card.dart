@@ -6,14 +6,14 @@ import 'mp_progress_bar.dart';
 class MpKpiCard extends StatelessWidget {
   final String value;
   final String label;
-  final String subtext;
+  final String? subtext;
   final double progress;
 
   const MpKpiCard({
     super.key,
     required this.value,
     required this.label,
-    required this.subtext,
+    this.subtext,
     required this.progress,
   });
 
@@ -63,14 +63,16 @@ class MpKpiCard extends StatelessWidget {
                 width: 60,
                 height: 6,
               ),
-              const SizedBox(height: 4),
-              Text(
-                subtext,
-                style: AppTextStyles.sans(
-                  fontSize: 9,
-                  color: AppColors.textMuted,
+              if (subtext != null && subtext!.isNotEmpty) ...[
+                const SizedBox(height: 4),
+                Text(
+                  subtext!,
+                  style: AppTextStyles.sans(
+                    fontSize: 9,
+                    color: AppColors.textMuted,
+                  ),
                 ),
-              ),
+              ],
             ],
           ),
         ],

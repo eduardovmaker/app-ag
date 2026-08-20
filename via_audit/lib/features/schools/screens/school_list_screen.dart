@@ -78,7 +78,6 @@ class SchoolListScreen extends StatelessWidget {
             const MpKpiCard(
               value: '3 / 12',
               label: 'escolas visitadas',
-              subtext: 'Semana 3 de 8',
               progress: 3 / 12,
             ),
             const SizedBox(height: 20),

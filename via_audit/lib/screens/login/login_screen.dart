@@ -120,7 +120,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               const SizedBox(height: 6),
               Text(
-                'Digite seu PIN de acesso (ex: 123456 ou 724123)',
+                'Digite seu PIN de acesso',
                 style: AppTextStyles.sans(
                   fontSize: 14,
                   color: AppColors.textSecondary,

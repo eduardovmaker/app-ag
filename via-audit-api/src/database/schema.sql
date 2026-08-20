@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS registros (
 
 -- Seed Orientadores (Com Bcrypt Hashes)
 INSERT INTO orientadores (id, nome, email, pin, ativo) VALUES 
-(1, 'Adolfo', 'adolfo@via.education', '$2b$08$GmUsUVsRFFKnYCHJqXLxlexaLBKL3SS0v3YKsOJPU5gUhQTWNp6gC', 1),
+(1, 'Adolfo Castro', 'adolfo.castro@via.education', '$2b$08$GmUsUVsRFFKnYCHJqXLxlexaLBKL3SS0v3YKsOJPU5gUhQTWNp6gC', 1),
 (2, 'Adriele Pereira', 'adriele.pereira@via.education', '$2b$08$yikVUNX/sO1cl/97UOV3qO8AQeRKjp2rS/SG2K74WKJcUdK.aqo5a', 1),
 (3, 'Aline Gomes', 'aline.gomes@via.education', '$2b$08$KMS5sKFnm3hX11Ue57mPoOQ1mcuWCpzXWeeekxMzSIudgjhBK6wtm', 1),
 (4, 'Amarildo Junior', 'amarildo.junior@via.education', '$2b$08$XFqeAmpS.ffBkykUnhYtnOQZzTf9PDmzgnkyQwQ.sjZL77ywKqwUe', 1),

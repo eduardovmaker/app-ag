@@ -31,13 +31,17 @@ rows.forEach(r => {
 
 const orientadoresNomes = Array.from(orientadoresSet).sort();
 
-// Preservar PINs existentes do arquivo de credenciais
+// Preservar dados e credenciais do arquivo de credenciais existente
 const credenciaisPath = path.join(rootDir, 'orientadores_credenciais.json');
-let existingCredsMap = new Map();
+let existingCredsById = new Map();
+let existingCredsByName = new Map();
 if (fs.existsSync(credenciaisPath)) {
   try {
     const existing = JSON.parse(fs.readFileSync(credenciaisPath, 'utf8'));
-    existing.forEach(c => existingCredsMap.set(c.nome, c.pin));
+    existing.forEach(c => {
+      existingCredsById.set(c.id, c);
+      existingCredsByName.set(c.nome.toLowerCase(), c);
+    });
   } catch (e) {}
 }
 
@@ -74,27 +78,35 @@ fs.writeFileSync(adminCredPath, JSON.stringify({
   role: 'admin'
 }, null, 2), 'utf8');
 
-// 2. Gerar Orientadores
-orientadoresNomes.forEach((nome, index) => {
-  let pin = existingCredsMap.get(nome);
+// 2. Gerar Orientadores (Preservando nomes atualizados como Adolfo Castro)
+orientadoresNomes.forEach((nomeExcel, index) => {
+  const id = index + 1;
+  const existing = existingCredsById.get(id) || existingCredsByName.get(nomeExcel.toLowerCase());
+
+  let nome = existing ? existing.nome : nomeExcel;
+  let pin = existing ? existing.pin : null;
+
   if (!pin || usedPins.has(pin)) {
     do {
       pin = Math.floor(100000 + Math.random() * 900000).toString();
     } while (usedPins.has(pin));
   }
-  
+
   usedPins.add(pin);
-  
+
   const pinHash = bcrypt.hashSync(pin, 8);
-  
-  const slug = nome.toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/\s+/g, '.');
-  const email = `${slug}@via.education`;
-    
+
+  let email = existing ? existing.email : null;
+  if (!email) {
+    const slug = nome.toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/\s+/g, '.');
+    email = `${slug}@via.education`;
+  }
+
   orientadores.push({
-    id: index + 1,
+    id: id,
     nome: nome,
     email: email,
     pin: pinHash,
@@ -103,7 +115,7 @@ orientadoresNomes.forEach((nome, index) => {
   });
 
   credenciais.push({
-    id: index + 1,
+    id: id,
     nome: nome,
     pin: pin,
     email: email
@@ -112,6 +124,7 @@ orientadoresNomes.forEach((nome, index) => {
 
 const oriMap = new Map();
 orientadores.forEach(o => oriMap.set(o.nome, o.id));
+orientadoresNomes.forEach((nomeExcel, index) => oriMap.set(nomeExcel, index + 1));
 
 const escolas = [];
 const orientadorEscola = [];
@@ -162,12 +175,14 @@ rows.forEach((r, idx) => {
     });
   }
   
-  // Buscar se existe um arquivo Excel de ativos correspondente a esta escola
-  const escolaNomeClean = escolaNome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  // Buscar se existe um arquivo Excel de ativos correspondente a esta escola (utilizando correspondência exata para não misturar filiais)
+  const escolaNomeClean = escolaNome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
   const matchedExcel = parsedAtivosExcels.find(pe => {
     if (!pe.nomeFantasia) return false;
-    const peNomeClean = pe.nomeFantasia.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    return escolaNomeClean.includes(peNomeClean) || peNomeClean.includes(escolaNomeClean);
+    const peNomeClean = pe.nomeFantasia.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+
+    if (pe.codigoLoja && codigo.includes(pe.codigoLoja)) return true;
+    return escolaNomeClean === peNomeClean;
   });
 
   if (matchedExcel && matchedExcel.ativos.length > 0) {
@@ -179,7 +194,8 @@ rows.forEach((r, idx) => {
         descricao: at.descricao,
         quantidade: at.quantidade,
         nf: at.nf,
-        origem: 'historico'
+        origem: 'historico',
+        is_auditavel: at.is_auditavel ?? 1
       });
     });
   } else {
@@ -191,9 +207,10 @@ rows.forEach((r, idx) => {
         id: ativoIdCounter++,
         escola_id: escolaIdCounter,
         descricao: desc,
-        quantidade: (a === 0) ? 1 : (a * 5 + 2),
-        nf: `${10000 + (idx * 3 + a)}`,
-        origem: 'historico'
+        quantidade: (a === 0) ? 1 : 7,
+        nf: `10${(escolaIdCounter * 3 + a).toString().padStart(3, '0')}`,
+        origem: 'historico',
+        is_auditavel: 1
       });
     }
   }

@@ -16,4 +16,9 @@ router.get('/stats', controller.stats);
 router.get('/reports/excel', controller.exportExcel);
 router.get('/reports/pdf', controller.exportPdf);
 
+// Rotas de Gestão de Ativos Auditáveis pelo Administrador
+router.get('/escolas/:escolaId/ativos', controller.listarAtivosEscola);
+router.patch('/ativos/:id/toggle-auditavel', controller.toggleAtivoAuditavel);
+router.put('/escolas/:escolaId/ativos/bulk-toggle', controller.bulkToggleAtivos);
+
 module.exports = router;

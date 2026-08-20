@@ -15,8 +15,8 @@ class ProgressoHeaderWidget extends StatelessWidget {
     required this.orientadorNome,
     required this.totalEscolas,
     required this.escolasVisitadas,
-    required this.semanaAtual,
-    required this.totalSemanas,
+    this.semanaAtual = 1,
+    this.totalSemanas = 8,
     this.isOffline = false,
   });
 
@@ -94,7 +94,7 @@ class ProgressoHeaderWidget extends StatelessWidget {
                   ),
                   const SizedBox(height: 2),
                   Text(
-                    'Semana $semanaAtual de $totalSemanas · Orientador(a)',
+                    'Orientador(a)',
                     style: AppTextStyles.sans(
                       fontSize: 12,
                       fontWeight: FontWeight.w500,

@@ -168,8 +168,6 @@ class _ListaEscolasScreenState extends State<ListaEscolasScreen> {
                       orientadorNome: _orientadorNome,
                       totalEscolas: _total,
                       escolasVisitadas: _visitadas,
-                      semanaAtual: 3,
-                      totalSemanas: 8,
                       isOffline: _isOffline,
                     ),
                     const SizedBox(height: 20),

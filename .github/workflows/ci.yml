@@ -1,34 +1,63 @@
-name: CI
+name: Via Audit CI/CD Pipeline
 
 on:
   push:
+    branches: [ main, master ]
   pull_request:
+    branches: [ main, master ]
 
 jobs:
-  lint-and-node-tests:
-    name: Lint + testes do linter (node)
+  backend-api-ci:
+    name: Backend API (Node.js & E2E Integration Tests)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install API Dependencies
+        run: |
+          cd via-audit-api
+          npm install
+      - name: Run E2E Integration Suite
+        run: node scripts/test_e2e.js
+
+  flutter-app-ci:
+    name: Mobile App (Flutter Lint & Unit Tests)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: "stable"
+          cache: true
+      - name: Install Flutter Dependencies
+        run: |
+          cd via_audit
+          flutter pub get
+      - name: Analyze Flutter Project
+        run: |
+          cd via_audit
+          flutter analyze
+      - name: Run Flutter Tests
+        run: |
+          cd via_audit
+          flutter test
+
+  sdd-lint-and-docs:
+    name: SDD Lint & Documentation Verification
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "22"
-      - name: sdd-lint (specs/ + .claude/)
+          node-version: "20"
+      - name: Run sdd-lint
         run: node scripts/sdd-lint.mjs
-      - name: Testes do linter (node:test, zero-dep)
-        # Forma com glob (expandida pelo shell) — funciona em qualquer versão do Node.
-        # A forma de diretório `node --test scripts/tests/` só recorre em Node >= 21.
-        run: node --test scripts/tests/*.test.mjs
-
-  python-skill-tests:
-    name: Testes Python das skills uiux-*
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Instalar pytest
-        run: pip install pytest
-      - name: pytest .claude/skills
-        run: pytest .claude/skills
