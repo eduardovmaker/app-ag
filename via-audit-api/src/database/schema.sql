@@ -1,14 +1,17 @@
 -- Schema e Dados do Banco de Dados MySQL com Hashing Bcrypt
 
+-- 1. Tabela de Orientadores (Suporta PINs Hasheados por Bcrypt)
 CREATE TABLE IF NOT EXISTS orientadores (
   id          INT AUTO_INCREMENT PRIMARY KEY,
   nome        VARCHAR(150) NOT NULL,
   email       VARCHAR(150),
   pin         VARCHAR(255) NOT NULL,
+  role        ENUM('orientador', 'admin') DEFAULT 'orientador',
   ativo       TINYINT(1) DEFAULT 1,
   criado_em   DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+-- 2. Tabela de Escolas
 CREATE TABLE IF NOT EXISTS escolas (
   id              INT AUTO_INCREMENT PRIMARY KEY,
   nome            VARCHAR(200) NOT NULL,
@@ -20,17 +23,19 @@ CREATE TABLE IF NOT EXISTS escolas (
   criado_em       DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+-- 3. Tabela de Vínculo entre Orientador e Escola (Visitas Agendadas)
 CREATE TABLE IF NOT EXISTS orientador_escola (
-  id              INT AUTO_INCREMENT PRIMARY KEY,
-  orientador_id   INT NOT NULL,
-  escola_id       INT NOT NULL,
+  id                   INT AUTO_INCREMENT PRIMARY KEY,
+  orientador_id        INT NOT NULL,
+  escola_id            INT NOT NULL,
   data_visita_agendada DATE,
-  status          ENUM('pendente','em_andamento','concluida') DEFAULT 'pendente',
+  status               ENUM('pendente','em_andamento','concluida') DEFAULT 'pendente',
   FOREIGN KEY (orientador_id) REFERENCES orientadores(id),
   FOREIGN KEY (escola_id) REFERENCES escolas(id),
   UNIQUE KEY uq_oe (orientador_id, escola_id)
 );
 
+-- 4. Tabela de Ativos da Escola (Suporta a Flag is_auditavel do Admin)
 CREATE TABLE IF NOT EXISTS ativos (
   id              INT AUTO_INCREMENT PRIMARY KEY,
   escola_id       INT NOT NULL,
@@ -43,6 +48,7 @@ CREATE TABLE IF NOT EXISTS ativos (
   FOREIGN KEY (escola_id) REFERENCES escolas(id)
 );
 
+-- 5. Tabela de Visitas de Auditoria
 CREATE TABLE IF NOT EXISTS visitas (
   id              INT AUTO_INCREMENT PRIMARY KEY,
   orientador_id   INT NOT NULL,
@@ -56,6 +62,7 @@ CREATE TABLE IF NOT EXISTS visitas (
   FOREIGN KEY (escola_id) REFERENCES escolas(id)
 );
 
+-- 6. Tabela de Registros de Conferência de Ativos
 CREATE TABLE IF NOT EXISTS registros (
   id                  INT AUTO_INCREMENT PRIMARY KEY,
   visita_id           INT NOT NULL,
@@ -64,8 +71,6 @@ CREATE TABLE IF NOT EXISTS registros (
   status              ENUM('ok','avariado','nao_encontrado','extra') NOT NULL,
   patrimonio_fisico   VARCHAR(50),
   foto_url            VARCHAR(500),
-  foto_url2           VARCHAR(500),
-  foto_url3           VARCHAR(500),
   lat                 DECIMAL(10,7),
   lng                 DECIMAL(10,7),
   observacao          TEXT,
@@ -1137,3 +1142,6 @@ INSERT INTO ativos (id, escola_id, descricao, quantidade, nf, origem) VALUES
 (571, 229, 'Chromebook Lenovo N23', 1, '10684', 'historico'),
 (572, 229, 'Roteador Wi-Fi 6 Mesh TP-Link', 7, '10685', 'historico')
 ON DUPLICATE KEY UPDATE descricao=VALUES(descricao);
+
+
+
