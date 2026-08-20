@@ -1,6 +1,7 @@
 const { success, error } = require('../../utils/response');
 const pool = require('../../config/db');
 const store = require('../../database/store');
+const { compressImageFile } = require('../../utils/imageCompressor');
 
 exports.salvar = async (req, res, next) => {
   try {
@@ -19,6 +20,10 @@ exports.salvar = async (req, res, next) => {
     const fotoFile1 = files['foto'] ? files['foto'][0] : null;
     const fotoFile2 = files['foto2'] ? files['foto2'][0] : null;
     const fotoFile3 = files['foto3'] ? files['foto3'][0] : null;
+
+    if (fotoFile1) await compressImageFile(fotoFile1.path);
+    if (fotoFile2) await compressImageFile(fotoFile2.path);
+    if (fotoFile3) await compressImageFile(fotoFile3.path);
 
     const fotoUrl1 = fotoFile1 ? `/uploads/fotos/${fotoFile1.filename}` : null;
     const fotoUrl2 = fotoFile2 ? `/uploads/fotos/${fotoFile2.filename}` : null;

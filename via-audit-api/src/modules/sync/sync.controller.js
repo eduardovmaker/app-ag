@@ -3,6 +3,8 @@ const store = require('../../database/store');
 const fs = require('fs');
 const path = require('path');
 
+const { saveAndCompressBase64 } = require('../../utils/imageCompressor');
+
 exports.uploadBatch = async (req, res, next) => {
   try {
     const { registros } = req.body;
@@ -16,7 +18,7 @@ exports.uploadBatch = async (req, res, next) => {
 
     for (const reg of registros) {
       try {
-        const saveBase64 = (b64String, prefix) => {
+        const processBase64 = async (b64String, prefix) => {
           if (!b64String) return null;
           if (typeof b64String !== 'string' || (!b64String.startsWith('data:image/') && b64String.length > 5000000)) {
             throw new Error('Formato ou tamanho inválido de imagem Base64');
@@ -26,14 +28,14 @@ exports.uploadBatch = async (req, res, next) => {
           if (!fs.existsSync(uploadDir)) {
             fs.mkdirSync(uploadDir, { recursive: true });
           }
-          const base64Data = b64String.replace(/^data:image\/\w+;base64,/, '');
-          fs.writeFileSync(path.join(uploadDir, filename), base64Data, 'base64');
+          const fullPath = path.join(uploadDir, filename);
+          await saveAndCompressBase64(b64String, fullPath);
           return `/uploads/fotos/${filename}`;
         };
 
-        const fotoUrl1 = saveBase64(reg.fotoBase64, 'sync1');
-        const fotoUrl2 = saveBase64(reg.fotoBase64_2, 'sync2');
-        const fotoUrl3 = saveBase64(reg.fotoBase64_3, 'sync3');
+        const fotoUrl1 = await processBase64(reg.fotoBase64, 'sync1');
+        const fotoUrl2 = await processBase64(reg.fotoBase64_2, 'sync2');
+        const fotoUrl3 = await processBase64(reg.fotoBase64_3, 'sync3');
 
         store.registros.push({
           id: Date.now() + salvos,
