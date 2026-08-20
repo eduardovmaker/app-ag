@@ -2,8 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const xlsx = require('../via-audit-api/node_modules/xlsx');
 const bcrypt = require('../via-audit-api/node_modules/bcryptjs');
+const { parseAllAtivosExcels } = require('./parse_ativos_escola');
 
-const excelPath = path.join(__dirname, '..', 'clientes por orientador.xlsx');
+// Ler todos os arquivos de ativos por escola disponíveis na raiz
+const rootDir = path.join(__dirname, '..');
+const parsedAtivosExcels = parseAllAtivosExcels(rootDir);
+
+const excelPath = path.join(rootDir, 'clientes por orientador.xlsx');
 const wb = xlsx.readFile(excelPath);
 const sheet = wb.Sheets[wb.SheetNames[0]];
 const rawRows = xlsx.utils.sheet_to_json(sheet);
@@ -27,7 +32,7 @@ rows.forEach(r => {
 const orientadoresNomes = Array.from(orientadoresSet).sort();
 
 // Preservar PINs existentes do arquivo de credenciais
-const credenciaisPath = path.join(__dirname, '..', 'orientadores_credenciais.json');
+const credenciaisPath = path.join(rootDir, 'orientadores_credenciais.json');
 let existingCredsMap = new Map();
 if (fs.existsSync(credenciaisPath)) {
   try {
@@ -41,7 +46,7 @@ const orientadores = [];
 const credenciais = [];
 
 // 1. Gerar Administrador Seguro com PIN Aleatório Exclusivo
-const adminCredPath = path.join(__dirname, '..', 'admin_credenciais.json');
+const adminCredPath = path.join(rootDir, 'admin_credenciais.json');
 let adminPin = '873914';
 if (fs.existsSync(adminCredPath)) {
   try {
@@ -157,17 +162,40 @@ rows.forEach((r, idx) => {
     });
   }
   
-  const qtdAtivos = 2 + (idx % 2);
-  for (let a = 0; a < qtdAtivos; a++) {
-    const desc = ativosPredefinidos[(idx + a) % ativosPredefinidos.length];
-    ativos.push({
-      id: ativoIdCounter++,
-      escola_id: escolaIdCounter,
-      descricao: desc,
-      quantidade: (a === 0) ? 1 : (a * 5 + 2),
-      nf: `${10000 + (idx * 3 + a)}`,
-      origem: 'historico'
+  // Buscar se existe um arquivo Excel de ativos correspondente a esta escola
+  const escolaNomeClean = escolaNome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const matchedExcel = parsedAtivosExcels.find(pe => {
+    if (!pe.nomeFantasia) return false;
+    const peNomeClean = pe.nomeFantasia.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return escolaNomeClean.includes(peNomeClean) || peNomeClean.includes(escolaNomeClean);
+  });
+
+  if (matchedExcel && matchedExcel.ativos.length > 0) {
+    console.log(`✅ Escola ID ${escolaIdCounter} ("${escolaNome}") vinculada ao Excel real (${matchedExcel.ativos.length} ativos)`);
+    matchedExcel.ativos.forEach(at => {
+      ativos.push({
+        id: ativoIdCounter++,
+        escola_id: escolaIdCounter,
+        descricao: at.descricao,
+        quantidade: at.quantidade,
+        nf: at.nf,
+        origem: 'historico'
+      });
     });
+  } else {
+    // Fallback genérico para escolas que ainda não possuem o Excel individual enviado
+    const qtdAtivos = 2 + (idx % 2);
+    for (let a = 0; a < qtdAtivos; a++) {
+      const desc = ativosPredefinidos[(idx + a) % ativosPredefinidos.length];
+      ativos.push({
+        id: ativoIdCounter++,
+        escola_id: escolaIdCounter,
+        descricao: desc,
+        quantidade: (a === 0) ? 1 : (a * 5 + 2),
+        nf: `${10000 + (idx * 3 + a)}`,
+        origem: 'historico'
+      });
+    }
   }
   
   escolaIdCounter++;
@@ -185,7 +213,7 @@ const seedData = {
   orientador_escola: orientadorEscola,
   ativos
 };
-const seedDataPath = path.join(__dirname, '..', 'via-audit-api', 'src', 'database', 'seed_data.json');
+const seedDataPath = path.join(rootDir, 'via-audit-api', 'src', 'database', 'seed_data.json');
 fs.writeFileSync(seedDataPath, JSON.stringify(seedData, null, 2), 'utf8');
 
 const storeContent = `// Store em memória carregada dinamicamente com hashes bcrypt para PINs
@@ -202,7 +230,7 @@ const store = {
 
 module.exports = store;
 `;
-const storePath = path.join(__dirname, '..', 'via-audit-api', 'src', 'database', 'store.js');
+const storePath = path.join(rootDir, 'via-audit-api', 'src', 'database', 'store.js');
 fs.writeFileSync(storePath, storeContent, 'utf8');
 
-console.log('🔒 Credencial Admin e Orientadores geradas com sucesso!');
+console.log('🔒 Credencial Admin, Orientadores e Ativos Reais por Escola gerados com sucesso!');
