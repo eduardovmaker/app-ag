@@ -84,10 +84,22 @@ class SyncService extends ChangeNotifier {
 
         final payloadRegistros = [];
         for (var reg in batch) {
-          String? base64Photo;
+          String? base64Photo1;
           if (reg.fotoPath != null && File(reg.fotoPath!).existsSync()) {
             final bytes = await File(reg.fotoPath!).readAsBytes();
-            base64Photo = 'data:image/jpeg;base64,${base64Encode(bytes)}';
+            base64Photo1 = 'data:image/jpeg;base64,${base64Encode(bytes)}';
+          }
+
+          String? base64Photo2;
+          if (reg.fotoPath2 != null && File(reg.fotoPath2!).existsSync()) {
+            final bytes = await File(reg.fotoPath2!).readAsBytes();
+            base64Photo2 = 'data:image/jpeg;base64,${base64Encode(bytes)}';
+          }
+
+          String? base64Photo3;
+          if (reg.fotoPath3 != null && File(reg.fotoPath3!).existsSync()) {
+            final bytes = await File(reg.fotoPath3!).readAsBytes();
+            base64Photo3 = 'data:image/jpeg;base64,${base64Encode(bytes)}';
           }
 
           payloadRegistros.add({
@@ -97,7 +109,9 @@ class SyncService extends ChangeNotifier {
             'unidadeNumero': reg.unidadeNumero,
             'status': reg.status,
             'patrimonioFisico': reg.patrimonioFisico ?? '',
-            'fotoBase64': base64Photo,
+            'fotoBase64': base64Photo1,
+            'fotoBase64_2': base64Photo2,
+            'fotoBase64_3': base64Photo3,
             'lat': reg.lat,
             'lng': reg.lng,
             'observacao': reg.observacao ?? '',

@@ -15,17 +15,23 @@ exports.salvar = async (req, res, next) => {
       observacao,
     } = req.body;
 
-    const fotoFile = req.file;
-    const fotoUrl = fotoFile ? `/uploads/fotos/${fotoFile.filename}` : '/uploads/fotos/placeholder.jpg';
+    const files = req.files || {};
+    const fotoFile1 = files['foto'] ? files['foto'][0] : null;
+    const fotoFile2 = files['foto2'] ? files['foto2'][0] : null;
+    const fotoFile3 = files['foto3'] ? files['foto3'][0] : null;
+
+    const fotoUrl1 = fotoFile1 ? `/uploads/fotos/${fotoFile1.filename}` : null;
+    const fotoUrl2 = fotoFile2 ? `/uploads/fotos/${fotoFile2.filename}` : null;
+    const fotoUrl3 = fotoFile3 ? `/uploads/fotos/${fotoFile3.filename}` : null;
 
     let registroId = Date.now();
 
     try {
       const [result] = await pool.query(
         `INSERT INTO registros 
-          (visita_id, ativo_id, unidade_numero, status, patrimonio_fisico, foto_url, lat, lng, observacao, sincronizado) 
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1)`,
-        [visitaId, ativoId, unidadeNumero || 1, status, patrimonioFisico || '', fotoUrl, lat || null, lng || null, observacao || '']
+          (visita_id, ativo_id, unidade_numero, status, patrimonio_fisico, foto_url, foto_url2, foto_url3, lat, lng, observacao, sincronizado) 
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1)`,
+        [visitaId, ativoId, unidadeNumero || 1, status, patrimonioFisico || '', fotoUrl1, fotoUrl2, fotoUrl3, lat || null, lng || null, observacao || '']
       );
       registroId = result.insertId;
     } catch (e) {
@@ -37,7 +43,9 @@ exports.salvar = async (req, res, next) => {
         unidade_numero: parseInt(unidadeNumero || 1),
         status,
         patrimonio_fisico: patrimonioFisico || '',
-        foto_url: fotoUrl,
+        foto_url: fotoUrl1,
+        foto_url2: fotoUrl2,
+        foto_url3: fotoUrl3,
         lat: parseFloat(lat) || null,
         lng: parseFloat(lng) || null,
         observacao: observacao || '',

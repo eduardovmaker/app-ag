@@ -64,6 +64,8 @@ CREATE TABLE IF NOT EXISTS registros (
   status              ENUM('ok','avariado','nao_encontrado','extra') NOT NULL,
   patrimonio_fisico   VARCHAR(50),
   foto_url            VARCHAR(500),
+  foto_url2           VARCHAR(500),
+  foto_url3           VARCHAR(500),
   lat                 DECIMAL(10,7),
   lng                 DECIMAL(10,7),
   observacao          TEXT,

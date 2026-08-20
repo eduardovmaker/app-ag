@@ -39,6 +39,8 @@ class RegistroService {
     required String status,
     String? patrimonioFisico,
     File? foto,
+    File? foto2,
+    File? foto3,
     double? lat,
     double? lng,
     String? observacao,
@@ -46,10 +48,9 @@ class RegistroService {
     final connectivityResult = await Connectivity().checkConnectivity();
     final isOnline = !connectivityResult.contains(ConnectivityResult.none);
 
-    File? compressedFoto;
-    if (foto != null) {
-      compressedFoto = await ImageUtils.compressImage(foto);
-    }
+    File? compressedFoto1 = foto != null ? await ImageUtils.compressImage(foto) : null;
+    File? compressedFoto2 = foto2 != null ? await ImageUtils.compressImage(foto2) : null;
+    File? compressedFoto3 = foto3 != null ? await ImageUtils.compressImage(foto3) : null;
 
     if (isOnline) {
       try {
@@ -64,8 +65,14 @@ class RegistroService {
           'observacao': observacao ?? '',
         };
 
-        if (compressedFoto != null) {
-          mapData['foto'] = await MultipartFile.fromFile(compressedFoto.path);
+        if (compressedFoto1 != null) {
+          mapData['foto'] = await MultipartFile.fromFile(compressedFoto1.path);
+        }
+        if (compressedFoto2 != null) {
+          mapData['foto2'] = await MultipartFile.fromFile(compressedFoto2.path);
+        }
+        if (compressedFoto3 != null) {
+          mapData['foto3'] = await MultipartFile.fromFile(compressedFoto3.path);
         }
 
         final formData = FormData.fromMap(mapData);
@@ -82,7 +89,9 @@ class RegistroService {
               unidadeNumero: unidadeNumero,
               status: status,
               patrimonioFisico: patrimonioFisico,
-              fotoPath: compressedFoto?.path,
+              fotoPath: compressedFoto1?.path,
+              fotoPath2: compressedFoto2?.path,
+              fotoPath3: compressedFoto3?.path,
               lat: lat,
               lng: lng,
               observacao: observacao,
@@ -106,7 +115,9 @@ class RegistroService {
         unidadeNumero: unidadeNumero,
         status: status,
         patrimonioFisico: patrimonioFisico,
-        fotoPath: compressedFoto?.path,
+        fotoPath: compressedFoto1?.path,
+        fotoPath2: compressedFoto2?.path,
+        fotoPath3: compressedFoto3?.path,
         lat: lat,
         lng: lng,
         observacao: observacao,

@@ -16,7 +16,7 @@ class LocalDb {
 
     return await openDatabase(
       path,
-      version: 1,
+      version: 2,
       onCreate: (db, version) async {
         await db.execute('''
           CREATE TABLE orientadores (
@@ -76,6 +76,8 @@ class LocalDb {
             status TEXT NOT NULL,
             patrimonio_fisico TEXT,
             foto_path TEXT,
+            foto_path2 TEXT,
+            foto_path3 TEXT,
             lat REAL,
             lng REAL,
             observacao TEXT,
@@ -95,6 +97,14 @@ class LocalDb {
             sincronizado INTEGER DEFAULT 0
           )
         ''');
+      },
+      onUpgrade: (db, oldVersion, newVersion) async {
+        if (oldVersion < 2) {
+          try {
+            await db.execute('ALTER TABLE registros ADD COLUMN foto_path2 TEXT');
+            await db.execute('ALTER TABLE registros ADD COLUMN foto_path3 TEXT');
+          } catch (_) {}
+        }
       },
     );
   }

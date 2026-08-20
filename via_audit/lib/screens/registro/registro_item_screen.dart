@@ -27,7 +27,9 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
   final TextEditingController _obsController = TextEditingController();
   final ImagePicker _picker = ImagePicker();
 
-  File? _foto;
+  File? _foto1;
+  File? _foto2;
+  File? _foto3;
   Position? _position;
   String _selectedStatus = 'ok';
   bool _isPatrimonioValid = false;
@@ -65,21 +67,25 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
     super.dispose();
   }
 
-  Future<void> _tirarFoto() async {
+  Future<void> _tirarFotoSlot(int slot) async {
     try {
       final XFile? photo = await _picker.pickImage(source: ImageSource.camera, imageQuality: 80);
       if (photo != null) {
         setState(() {
-          _foto = File(photo.path);
+          if (slot == 1) _foto1 = File(photo.path);
+          if (slot == 2) _foto2 = File(photo.path);
+          if (slot == 3) _foto3 = File(photo.path);
         });
         _obterGPS();
       }
     } catch (e) {
-      debugPrint('Erro ao abrir câmera: $e');
+      debugPrint('Erro ao abrir câmera: $e. Tentando galeria...');
       final XFile? photo = await _picker.pickImage(source: ImageSource.gallery, imageQuality: 80);
       if (photo != null) {
         setState(() {
-          _foto = File(photo.path);
+          if (slot == 1) _foto1 = File(photo.path);
+          if (slot == 2) _foto2 = File(photo.path);
+          if (slot == 3) _foto3 = File(photo.path);
         });
         _obterGPS();
       }
@@ -115,10 +121,10 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
   }
 
   Future<void> _salvarEProximo() async {
-    // Foto é obrigatória exceto quando o status for "não achei" (nao_encontrado)
-    if (_selectedStatus != 'nao_encontrado' && _foto == null) {
+    // Foto 1 é obrigatória exceto quando o status for "não achei" (nao_encontrado)
+    if (_selectedStatus != 'nao_encontrado' && _foto1 == null) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Tire uma foto do item antes de continuar.')),
+        const SnackBar(content: Text('Tire pelo menos a Foto 1 (Principal) do item antes de continuar.')),
       );
       return;
     }
@@ -149,7 +155,9 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
       unidadeNumero: _unidadeNumero,
       status: _selectedStatus,
       patrimonioFisico: _patrimonioController.text.trim(),
-      foto: _selectedStatus == 'nao_encontrado' ? null : _foto,
+      foto: _selectedStatus == 'nao_encontrado' ? null : _foto1,
+      foto2: _selectedStatus == 'nao_encontrado' ? null : _foto2,
+      foto3: _selectedStatus == 'nao_encontrado' ? null : _foto3,
       lat: _position?.latitude,
       lng: _position?.longitude,
       observacao: _obsController.text.trim(),
@@ -170,7 +178,9 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
       if (_unidadeNumero < _totalUnidades) {
         setState(() {
           _unidadeNumero++;
-          _foto = null;
+          _foto1 = null;
+          _foto2 = null;
+          _foto3 = null;
           _patrimonioController.clear();
           _obsController.clear();
         });
@@ -181,9 +191,9 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
   }
 
   Future<void> _salvarETodosRestantes() async {
-    if (_selectedStatus != 'nao_encontrado' && _foto == null) {
+    if (_selectedStatus != 'nao_encontrado' && _foto1 == null) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Tire uma foto do item antes de continuar.')),
+        const SnackBar(content: Text('Tire pelo menos a Foto 1 (Principal) do item antes de continuar.')),
       );
       return;
     }
@@ -301,9 +311,11 @@ class _RegistroItemScreenState extends State<RegistroItemScreen> {
             // Foto (Oculta se o item não for encontrado)
             if (_selectedStatus != 'nao_encontrado') ...[
               FotoCapturaWidget(
-                foto: _foto,
+                foto1: _foto1,
+                foto2: _foto2,
+                foto3: _foto3,
                 hasGps: _position != null,
-                onTirarFoto: _tirarFoto,
+                onTirarFotoSlot: _tirarFotoSlot,
               ),
               const SizedBox(height: 20),
             ] else ...[
